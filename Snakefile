@@ -3,42 +3,15 @@ rule all:
         auspice_tree = "auspice/zika_tree.json",
         auspice_meta = "auspice/zika_meta.json"
 
-rule files:
-    params:
-        input_fasta = "data/zika.fasta",
-        dropped_strains = "config/dropped_strains.txt",
-        reference = "config/zika_reference.gb",
-        colors = "config/colors.tsv",
-        auspice_config = "config/auspice_config.json"
-
-files = rules.files.params
-
-rule download:
-    message: "Downloading sequences from fauna"
-    output:
-        sequences = "data/zika.fasta"
-    params:
-        fasta_fields = "strain virus accession collection_date region country division location source locus authors url title journal puburl"
-    shell:
-        """
-        python3 ../fauna/vdb/download.py \
-            --database vdb \
-            --virus zika \
-            --fasta_fields {params.fasta_fields} \
-            --resolve_method choose_genbank \
-            --path $(dirname {output.sequences}) \
-            --fstem $(basename {output.sequences} .fasta)
-        """
-
 rule parse:
     message: "Parsing fasta into sequences and metadata"
     input:
-        sequences = rules.download.output.sequences
+        sequences = "data/rabies.fasta"
     output:
-        sequences = "results/sequences.fasta",
-        metadata = "results/metadata.tsv"
+        sequences = "data/sequences.fasta",
+        metadata = "data/metadata.tsv"
     params:
-        fasta_fields = "strain virus accession date region country division city db segment authors url title journal paper_url"
+        fasta_fields = "accession strain segment date host country subtype virus"
     shell:
         """
         augur parse \
@@ -48,6 +21,18 @@ rule parse:
             --fields {params.fasta_fields}
         """
 
+rule files:
+    params:
+        input_fasta = "data/sequences.fasta",
+        input_metadata = "data/metadata.tsv",
+        dropped_strains = "config/dropped_strains.txt",
+        reference = "config/rabies.gb",
+        colors = "config/colors.tsv",
+        lat_longs = "config/lat_longs.tsv",
+        auspice_config = "config/auspice_config.json"
+
+files = rules.files.params
+
 rule filter:
     message:
         """
@@ -55,19 +40,17 @@ rule filter:
           - {params.sequences_per_group} sequence(s) per {params.group_by!s}
           - from {params.min_date} onwards
           - excluding strains in {input.exclude}
-          - minimum genome length of {params.min_length} (50% of Zika virus genome)
         """
     input:
-        sequences = rules.parse.output.sequences,
-        metadata = rules.parse.output.metadata,
+        sequences = files.input_fasta,
+        metadata = files.input_metadata,
         exclude = files.dropped_strains
     output:
         sequences = "results/filtered.fasta"
     params:
         group_by = "country year month",
         sequences_per_group = 20,
-        min_date = 2012,
-        min_length = 5385
+        min_date = 2012
     shell:
         """
         augur filter \
@@ -77,8 +60,7 @@ rule filter:
             --output {output.sequences} \
             --group-by {params.group_by} \
             --sequences-per-group {params.sequences_per_group} \
-            --min-date {params.min_date} \
-            --min-length {params.min_length}
+            --min-date {params.min_date}
         """
 
 rule align:
@@ -98,8 +80,7 @@ rule align:
             --sequences {input.sequences} \
             --reference-sequence {input.reference} \
             --output {output.alignment} \
-            --fill-gaps \
-            --remove-reference
+            --fill-gaps
         """
 
 rule tree:
@@ -127,7 +108,7 @@ rule refine:
     input:
         tree = rules.tree.output.tree,
         alignment = rules.align.output,
-        metadata = rules.parse.output.metadata
+        metadata = files.input_metadata
     output:
         tree = "results/tree.nwk",
         node_data = "results/branch_lengths.json"
@@ -186,19 +167,14 @@ rule translate:
         """
 
 rule traits:
-    message:
-        """
-        Inferring ancestral traits for {params.columns!s}
-          - increase uncertainty of reconstruction by {params.sampling_bias_correction} to partially account for sampling bias
-        """
+    message: "Inferring ancestral traits for {params.columns!s}"
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.parse.output.metadata
+        metadata = files.input_metadata
     output:
         node_data = "results/traits.json",
     params:
-        columns = "region country",
-        sampling_bias_correction = 3
+        columns = "region country"
     shell:
         """
         augur traits \
@@ -206,20 +182,20 @@ rule traits:
             --metadata {input.metadata} \
             --output {output.node_data} \
             --columns {params.columns} \
-            --confidence \
-            --sampling-bias-correction {params.sampling_bias_correction}
+            --confidence
         """
 
 rule export:
     message: "Exporting data files for for auspice"
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.parse.output.metadata,
+        metadata = files.input_metadata,
         branch_lengths = rules.refine.output.node_data,
         traits = rules.traits.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
         colors = files.colors,
+        lat_longs = files.lat_longs,
         auspice_config = files.auspice_config
     output:
         auspice_tree = rules.all.input.auspice_tree,
@@ -231,6 +207,7 @@ rule export:
             --metadata {input.metadata} \
             --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.aa_muts} \
             --colors {input.colors} \
+            --lat-longs {input.lat_longs} \
             --auspice-config {input.auspice_config} \
             --output-tree {output.auspice_tree} \
             --output-meta {output.auspice_meta}
@@ -239,8 +216,7 @@ rule export:
 rule clean:
     message: "Removing directories: {params}"
     params:
-        "data "
         "results ",
         "auspice"
     shell:
-"rm -rfv {params}"
+        "rm -rfv {params}"

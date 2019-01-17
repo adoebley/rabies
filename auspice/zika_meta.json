@@ -1,0 +1,108 @@
+{
+  "annotations": {
+    "RABVgp1": {
+      "end": 1423,
+      "start": 70,
+      "strand": 1
+    },
+    "RABVgp2": {
+      "end": 2407,
+      "start": 1513,
+      "strand": 1
+    },
+    "RABVgp3": {
+      "end": 3104,
+      "start": 2495,
+      "strand": 1
+    },
+    "RABVgp4": {
+      "end": 4892,
+      "start": 3317,
+      "strand": 1
+    },
+    "RABVgp5": {
+      "end": 11846,
+      "start": 5417,
+      "strand": 1
+    },
+    "nuc": {
+      "end": 11932,
+      "start": 0,
+      "strand": 1
+    }
+  },
+  "author_info": {},
+  "color_options": {
+    "authors": {
+      "key": "authors",
+      "legendTitle": "Authors",
+      "menuItem": "authors",
+      "type": "discrete"
+    },
+    "country": {
+      "color_map": [
+        [
+          "China",
+          "#4379CD"
+        ],
+        [
+          "USA",
+          "#DC2F24"
+        ]
+      ],
+      "key": "country",
+      "legendTitle": "country",
+      "menuItem": "country"
+    },
+    "gt": {
+      "key": "genotype",
+      "legendTitle": "Genotype",
+      "menuItem": "genotype",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    },
+    "region": {
+      "color_map": [],
+      "key": "region",
+      "legendTitle": "region",
+      "menuItem": "region"
+    }
+  },
+  "defaults": {
+    "mapTriplicate": true
+  },
+  "filters": [
+    "country",
+    "region",
+    "authors"
+  ],
+  "geo": {
+    "country": {
+      "China": {
+        "latitude": 35.000074,
+        "longitude": 104.999927
+      },
+      "USA": {
+        "latitude": 39.7837304,
+        "longitude": -100.4458824
+      }
+    }
+  },
+  "maintainer": [
+    "Trevor Bedford",
+    "http://bedford.io/team/trevor-bedford/"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "title": "Real-time tracking of Rabies virus evolution",
+  "updated": "17 Jan 2019",
+  "virus_count": 5
+}
