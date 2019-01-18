@@ -3,13 +3,14 @@ rule all:
         auspice_tree = "auspice/zika_tree.json",
         auspice_meta = "auspice/zika_meta.json"
 
+
 rule parse:
     message: "Parsing fasta into sequences and metadata"
     input:
-        sequences = "data/rabies.fasta"
+        sequences = "data/date_corrected_full_genome_rabies.fasta"
     output:
-        sequences = "data/sequences.fasta",
-        metadata = "data/metadata.tsv"
+        sequences = "results/sequences.fasta",
+        metadata = "results/metadata.tsv"
     params:
         fasta_fields = "accession strain segment date host country subtype virus"
     shell:
@@ -18,16 +19,15 @@ rule parse:
             --sequences {input.sequences} \
             --output-sequences {output.sequences} \
             --output-metadata {output.metadata} \
-            --fields {params.fasta_fields}
+            --fields {params.fasta_fields} 
         """
 
 rule files:
     params:
-        input_fasta = "data/sequences.fasta",
-        input_metadata = "data/metadata.tsv",
+        input_fasta = "results/sequences.fasta",
+        input_metadata = "results/metadata.tsv",
         dropped_strains = "config/dropped_strains.txt",
         reference = "config/rabies.gb",
-        colors = "config/colors.tsv",
         lat_longs = "config/lat_longs.tsv",
         auspice_config = "config/auspice_config.json"
 
@@ -48,9 +48,10 @@ rule filter:
     output:
         sequences = "results/filtered.fasta"
     params:
-        group_by = "country year month",
-        sequences_per_group = 20,
-        min_date = 2012
+        group_by = "country", #group_by = "country year month",
+        sequences_per_group = 1, 
+        min_date = 2010,
+        min_length = 10000
     shell:
         """
         augur filter \
@@ -60,7 +61,8 @@ rule filter:
             --output {output.sequences} \
             --group-by {params.group_by} \
             --sequences-per-group {params.sequences_per_group} \
-            --min-date {params.min_date}
+            --min-date {params.min_date} \
+            --min-length {params.min_length}
         """
 
 rule align:
@@ -194,7 +196,6 @@ rule export:
         traits = rules.traits.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
-        colors = files.colors,
         lat_longs = files.lat_longs,
         auspice_config = files.auspice_config
     output:
@@ -206,7 +207,6 @@ rule export:
             --tree {input.tree} \
             --metadata {input.metadata} \
             --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.aa_muts} \
-            --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --auspice-config {input.auspice_config} \
             --output-tree {output.auspice_tree} \

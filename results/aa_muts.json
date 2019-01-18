@@ -32,128 +32,2120 @@
   }
  },
  "nodes": {
-  "JX16_105": {
-   "aa_muts": {
-    "RABVgp1": [],
-    "RABVgp2": [],
-    "RABVgp3": [],
-    "RABVgp4": [],
-    "RABVgp5": []
-   }
-  },
-  "JX16_21": {
-   "aa_muts": {
-    "RABVgp1": [],
-    "RABVgp2": [],
-    "RABVgp3": [],
-    "RABVgp4": [],
-    "RABVgp5": []
-   }
-  },
-  "ME.2013.0002": {
+  "067N": {
    "aa_muts": {
     "RABVgp1": [
-     "G397S"
+     "A3V",
+     "D4N",
+     "I6V",
+     "N11H",
+     "V14L",
+     "L17V",
+     "K18R",
+     "I21V",
+     "V23S",
+     "L36K",
+     "A46D",
+     "N50K",
+     "K51T",
+     "A76G",
+     "Q79V",
+     "F80L",
+     "T84I",
+     "L95N",
+     "R98K",
+     "D106A",
+     "S107T",
+     "K112H",
+     "D115N",
+     "V116T",
+     "L122Q",
+     "M126Q",
+     "E127D",
+     "V134T",
+     "S135P",
+     "S146C",
+     "S154V",
+     "I165V",
+     "I169M",
+     "T209A",
+     "S215A",
+     "R270K",
+     "V322I",
+     "A331Q",
+     "T332S",
+     "E368D",
+     "L374S",
+     "T377V",
+     "Y394F",
+     "E398D",
+     "R422K",
+     "S429A",
+     "S450P",
+     "*451R"
     ],
-    "RABVgp2": [],
+    "RABVgp2": [
+     "I11L",
+     "A13S",
+     "I28V",
+     "R30K",
+     "I32M",
+     "N35S",
+     "E42V",
+     "E45D",
+     "D47E",
+     "N48T",
+     "M53I",
+     "R54K",
+     "Q57R",
+     "L58I",
+     "D59A",
+     "E61Y",
+     "P63Q",
+     "S64G",
+     "G65Q",
+     "L66Q",
+     "G67E",
+     "M69D",
+     "K71S",
+     "A72R",
+     "G73Q",
+     "S75E",
+     "K76G",
+     "Y77E",
+     "Q78D",
+     "Q82Y",
+     "D84T",
+     "G86S",
+     "D88N",
+     "P89S",
+     "S90Y",
+     "L91V",
+     "L92P",
+     "F93L",
+     "N99A",
+     "V102M",
+     "Q107K",
+     "R109K",
+     "S110T",
+     "E112D",
+     "R113G",
+     "L115F",
+     "S119A",
+     "T121A",
+     "E124D",
+     "I126V",
+     "T130A",
+     "V131T",
+     "D135A",
+     "P137V",
+     "G138N",
+     "R139K",
+     "S140L",
+     "S141Q",
+     "E142A",
+     "A149T",
+     "G150L",
+     "R151E",
+     "E152K",
+     "P153A",
+     "K155Q",
+     "E156A",
+     "T157A",
+     "T158S",
+     "A160S",
+     "S161A",
+     "S162P",
+     "Q163K",
+     "S166G",
+     "Q167P",
+     "K170N",
+     "A171M",
+     "R172N",
+     "M173L",
+     "A174D",
+     "A175S",
+     "T177E",
+     "A178S",
+     "A183G",
+     "E185D",
+     "S187A",
+     "T189S",
+     "E191D",
+     "L195G",
+     "V197I",
+     "Y225W",
+     "K239R",
+     "S241V",
+     "N243G",
+     "V244I",
+     "L250M",
+     "H252R",
+     "S255M",
+     "V262M",
+     "W265G",
+     "L268S",
+     "A269N",
+     "N270H",
+     "K273R",
+     "L276I",
+     "E279N",
+     "P280S",
+     "D281A",
+     "N284G",
+     "I286L",
+     "T295L",
+     "S296A",
+     "C297Y"
+    ],
+    "RABVgp3": [
+     "F3I",
+     "L4I",
+     "N10S",
+     "R12K",
+     "E14D",
+     "D15E",
+     "T16M",
+     "S20N",
+     "K42S",
+     "L44M",
+     "L72I",
+     "R77S",
+     "D80E",
+     "E81G",
+     "I82V",
+     "Q87R",
+     "E108D",
+     "L116I",
+     "D126E",
+     "R128S",
+     "E132D",
+     "T148S",
+     "I155M",
+     "I168L",
+     "Q187K",
+     "R190Q",
+     "E192D",
+     "D196N",
+     "S197T"
+    ],
+    "RABVgp4": [
+     "I2L",
+     "P3L",
+     "Q4S",
+     "A5T",
+     "L6A",
+     "L7I",
+     "V9A",
+     "P10F",
+     "L11F",
+     "I13N",
+     "F14C",
+     "S15A",
+     "L16P",
+     "F18L",
+     "G19A",
+     "L30I",
+     "H39N",
+     "V48I",
+     "N56T",
+     "S58T",
+     "G59P",
+     "S71T",
+     "A72T",
+     "V75I",
+     "N76E",
+     "V84I",
+     "P110V",
+     "D111S",
+     "A115D",
+     "M121I",
+     "A122T",
+     "Y138S",
+     "V152L",
+     "A159V",
+     "L161M",
+     "P163A",
+     "S167N",
+     "H169Y",
+     "R171K",
+     "V172M",
+     "G175N",
+     "S179L",
+     "G180A",
+     "I181S",
+     "T182P",
+     "V183P",
+     "S185A",
+     "T186I",
+     "Y187C",
+     "S189P",
+     "M198I",
+     "R203K",
+     "L204P",
+     "T206L",
+     "N213T",
+     "R218K",
+     "S220T",
+     "G222D",
+     "K224R",
+     "T225L",
+     "K245R",
+     "L252M",
+     "T258S",
+     "A261S",
+     "I262L",
+     "T264K",
+     "S265T",
+     "D266E",
+     "E267A",
+     "T268P",
+     "K269E",
+     "P272S",
+     "L279V",
+     "S284T",
+     "S308T",
+     "M310I",
+     "V315I",
+     "L323F",
+     "I336L",
+     "F337I",
+     "T353E",
+     "N355K",
+     "I357V",
+     "R365M",
+     "V366A",
+     "V374Y",
+     "N375S",
+     "V377I",
+     "G385S",
+     "D387G",
+     "H389D",
+     "S398A",
+     "M404I",
+     "V411M",
+     "M415R",
+     "D427R",
+     "G428D",
+     "V442T",
+     "H443Q",
+     "Q445L",
+     "V449I",
+     "L453F",
+     "N455E",
+     "G457K",
+     "K458R",
+     "L460F",
+     "M462I",
+     "S463G",
+     "A464I",
+     "G465S",
+     "A466V",
+     "T468A",
+     "A469L",
+     "M471A",
+     "I473A",
+     "F475I",
+     "L476T",
+     "M477A",
+     "T478A",
+     "R481K",
+     "V483F",
+     "T486R",
+     "E487R",
+     "S488R",
+     "I489P",
+     "Q490K",
+     "Q491P",
+     "S492N",
+     "G494I",
+     "T496L",
+     "G497I",
+     "K508R",
+     "V509A",
+     "S511P",
+     "S518V",
+     "G520A",
+     "E521T",
+     "T522G",
+     "K523E",
+     "L524S"
+    ],
+    "RABVgp5": [
+     "P4S",
+     "G5T",
+     "I15V",
+     "S17P",
+     "E20D",
+     "P21L",
+     "G23S",
+     "P25S",
+     "T26V",
+     "I43L",
+     "A47S",
+     "K48R",
+     "L51I",
+     "K55T",
+     "H61S",
+     "M63L",
+     "T64N",
+     "C69L",
+     "S70L",
+     "K77R",
+     "D78G",
+     "V83L",
+     "L85V",
+     "L88M",
+     "K89R",
+     "V90A",
+     "T93L",
+     "A94G",
+     "S97A",
+     "S100T",
+     "Y104H",
+     "A106S",
+     "N111T",
+     "R115K",
+     "I117L",
+     "D119E",
+     "A121S",
+     "S125K",
+     "C136Y",
+     "G139E",
+     "R144K",
+     "I145T",
+     "P147T",
+     "C153S",
+     "L154I",
+     "E155N",
+     "R156K",
+     "D158Q",
+     "K161Q",
+     "A168G",
+     "T181I",
+     "D201E",
+     "L202I",
+     "T203A",
+     "V205I",
+     "M207V",
+     "G208K",
+     "K209S",
+     "K215R",
+     "L221S",
+     "I223V",
+     "V224I",
+     "S234A",
+     "M258L",
+     "L261I",
+     "P266S",
+     "I273V",
+     "Q275N",
+     "Q285K",
+     "M289A",
+     "E296D",
+     "I300L",
+     "V305I",
+     "S308K",
+     "R312K",
+     "K315R",
+     "V328Q",
+     "K331R",
+     "V334T",
+     "S335T",
+     "K346R",
+     "R347E",
+     "K350Q",
+     "V351T",
+     "L352M",
+     "Q354L",
+     "F355L",
+     "I391V",
+     "V394I",
+     "K397R",
+     "S398N",
+     "R409K",
+     "K421R",
+     "R427N",
+     "A430P",
+     "R431G",
+     "T436S",
+     "I439V",
+     "I449V",
+     "L452M",
+     "K459S",
+     "K514R",
+     "K524R",
+     "L528V",
+     "E534D",
+     "N574T",
+     "E632K",
+     "Q640K",
+     "R646K",
+     "I660V",
+     "E673R",
+     "S682T",
+     "P741S",
+     "S744N",
+     "R745K",
+     "E753D",
+     "L760I",
+     "E768D",
+     "F860Y",
+     "K870R",
+     "G871D",
+     "S878V",
+     "D882T",
+     "N883E",
+     "H933S",
+     "E951D",
+     "T953S",
+     "K970R",
+     "D981E",
+     "K1018R",
+     "Y1070F",
+     "N1078S",
+     "T1083V",
+     "V1087I",
+     "P1092S",
+     "S1095A",
+     "L1100Q",
+     "G1123A",
+     "L1125I",
+     "A1136Q",
+     "T1137S",
+     "G1139D",
+     "G1140D",
+     "N1141S",
+     "F1152L",
+     "N1206D",
+     "M1218V",
+     "D1224L",
+     "V1256I",
+     "K1279T",
+     "Y1281F",
+     "I1304L",
+     "N1318L",
+     "T1331A",
+     "S1332P",
+     "Q1333K",
+     "E1336S",
+     "H1354Q",
+     "Q1356R",
+     "D1360E",
+     "R1362G",
+     "D1367K",
+     "E1369D",
+     "S1372K",
+     "G1373E",
+     "E1375D",
+     "S1382T",
+     "I1394T",
+     "I1469V",
+     "R1472K",
+     "G1478S",
+     "I1502V",
+     "V1516A",
+     "A1519T",
+     "S1535I",
+     "V1554I",
+     "E1555D",
+     "S1561Q",
+     "A1564V",
+     "N1565R",
+     "M1569L",
+     "S1570N",
+     "D1583G",
+     "E1586D",
+     "R1593G",
+     "K1596R",
+     "S1598A",
+     "R1600Q",
+     "R1614K",
+     "T1617K",
+     "G1618C",
+     "N1623S",
+     "K1625R",
+     "M1626V",
+     "V1636I",
+     "A1648S",
+     "L1656I",
+     "R1664K",
+     "F1665L",
+     "D1691N",
+     "N1694E",
+     "V1695A",
+     "F1696Y",
+     "S1698T",
+     "N1716S",
+     "I1747L",
+     "D1752E",
+     "D1762N",
+     "L1774P",
+     "T1775S",
+     "S1782T",
+     "K1785S",
+     "Q1786A",
+     "V1787A",
+     "A1804P",
+     "R1808K",
+     "A1817S",
+     "D1821N",
+     "Y1825S",
+     "V1827I",
+     "R1841K",
+     "I1843V",
+     "F1856Y",
+     "R1871K",
+     "A1882S",
+     "P1903S",
+     "Q1908L",
+     "S1941N",
+     "Q1958R",
+     "R1959Q",
+     "T1961A",
+     "L1962F",
+     "I1969L",
+     "A1970T",
+     "I1973M",
+     "T1987N",
+     "L1990K",
+     "S2008G",
+     "M2010L",
+     "M2011I",
+     "T2015A",
+     "P2021L",
+     "S2022N",
+     "D2028E",
+     "R2032N",
+     "I2034V",
+     "R2039K",
+     "V2042T",
+     "I2043L",
+     "R2044G",
+     "N2046R",
+     "I2047M",
+     "S2050A",
+     "S2054T",
+     "D2056N",
+     "S2058P",
+     "I2092A",
+     "E2093K",
+     "R2097Q",
+     "Q2104K",
+     "G2105S",
+     "T2111N",
+     "L2112F",
+     "D2113S",
+     "I2115L",
+     "T2129S",
+     "G2130H",
+     "H2131L",
+     "F2132S",
+     "Q2133T",
+     "R2134C",
+     "P2135F",
+     "V2136S",
+     "H2137N",
+     "T2138C",
+     "K2139G",
+     "T2140L",
+     "L2141V",
+     "G2142E",
+     "Q2143P"
+    ]
+   }
+  },
+  "14015ITA": {
+   "aa_muts": {
+    "RABVgp1": [
+     "V15I"
+    ],
+    "RABVgp2": [
+     "R172K"
+    ],
+    "RABVgp3": [],
+    "RABVgp4": [
+     "F8S",
+     "V9L",
+     "S488P"
+    ],
+    "RABVgp5": [
+     "G1123A",
+     "R1215K",
+     "V1948I",
+     "I2043T"
+    ]
+   }
+  },
+  "15001AFS": {
+   "aa_muts": {
+    "RABVgp1": [
+     "I21V",
+     "V23A",
+     "L36S",
+     "D88N",
+     "L108I",
+     "E110D",
+     "V116I",
+     "T377N",
+     "V379T",
+     "A380I",
+     "S448N"
+    ],
+    "RABVgp2": [
+     "N48S",
+     "G61R",
+     "L66F",
+     "G67S",
+     "E68G",
+     "A70V",
+     "K71E",
+     "A72S",
+     "K76R",
+     "S90I",
+     "N99T",
+     "I104M",
+     "V122A",
+     "T130A",
+     "P136R",
+     "R139K",
+     "S145F",
+     "R151Q",
+     "T158A",
+     "S166N",
+     "L195P",
+     "K239R",
+     "T248I",
+     "P280S"
+    ],
+    "RABVgp3": [
+     "D13E",
+     "P19S",
+     "P21Y",
+     "V22A",
+     "I121V",
+     "V151I",
+     "K195R"
+    ],
+    "RABVgp4": [
+     "V2S",
+     "P3S",
+     "A5S",
+     "P10S",
+     "V13G",
+     "K102R",
+     "A115S",
+     "L151F",
+     "S175N",
+     "I181L",
+     "K221R",
+     "S223N",
+     "M255I",
+     "Q263H",
+     "V351I",
+     "N355D",
+     "I358V",
+     "P386S",
+     "M404V",
+     "I412V",
+     "D429N",
+     "N455D",
+     "K458R",
+     "V460I",
+     "M462V",
+     "A469T",
+     "N484H",
+     "P486R",
+     "T489K",
+     "G494R",
+     "G497E",
+     "V509A",
+     "S518N",
+     "G520S",
+     "L524M"
+    ],
+    "RABVgp5": [
+     "S17P",
+     "P21S",
+     "L51V",
+     "M63I",
+     "G86D",
+     "C136Y",
+     "K200R",
+     "L202V",
+     "K209R",
+     "K215R",
+     "S308G",
+     "S426P",
+     "T463A",
+     "G529R",
+     "E673G",
+     "S682T",
+     "I911T",
+     "H933Q",
+     "R1059K",
+     "S1060N",
+     "A1136V",
+     "T1137V",
+     "S1272A",
+     "R1307K",
+     "D1325E",
+     "D1326E",
+     "T1328I",
+     "S1332P",
+     "I1334V",
+     "G1411S",
+     "K1412R",
+     "I1487V",
+     "N1557S",
+     "A1564T",
+     "A1804E",
+     "V1919T",
+     "V1965M",
+     "A2024S",
+     "D2055N",
+     "S2091R",
+     "I2092V",
+     "D2123E",
+     "T2129A",
+     "S2132P",
+     "P2135A",
+     "V2136A",
+     "K2139N",
+     "R2143L"
+    ]
+   }
+  },
+  "15006FRA": {
+   "aa_muts": {
+    "RABVgp1": [],
+    "RABVgp2": [
+     "R30K",
+     "S64P",
+     "G75S",
+     "N135S",
+     "S141L",
+     "A171T",
+     "E185D",
+     "C297*"
+    ],
+    "RABVgp3": [
+     "R51K"
+    ],
+    "RABVgp4": [
+     "L16S",
+     "D433E",
+     "G495E"
+    ],
+    "RABVgp5": [
+     "K213R",
+     "S335G",
+     "S426P",
+     "I845V",
+     "S883G",
+     "A1136S",
+     "G2130*",
+     "Y2131S",
+     "H2137Y",
+     "T2140S"
+    ]
+   }
+  },
+  "AT6": {
+   "aa_muts": {
+    "RABVgp1": [
+     "T84S",
+     "V179A",
+     "T377A",
+     "I379T",
+     "A433T"
+    ],
+    "RABVgp2": [
+     "N48S",
+     "E61D",
+     "G68S",
+     "R109K",
+     "E112G",
+     "P134S",
+     "T136A",
+     "S141L",
+     "E142Q",
+     "A149V",
+     "L153V",
+     "K154A",
+     "T158K",
+     "E165A",
+     "A178V",
+     "F297L"
+    ],
+    "RABVgp3": [
+     "I7M",
+     "D80N",
+     "I82L",
+     "T148A",
+     "M184L",
+     "E192D"
+    ],
+    "RABVgp4": [
+     "F18L",
+     "T109I",
+     "P250L",
+     "A261S",
+     "E267D",
+     "H322Y",
+     "G367R",
+     "G368E",
+     "H373P",
+     "D427E",
+     "A466G",
+     "A469T",
+     "I471V",
+     "F475C",
+     "L476S",
+     "A483T",
+     "G494R",
+     "R498K",
+     "P501T",
+     "V502A",
+     "T503A",
+     "N506T",
+     "G507R",
+     "I510V",
+     "E521D",
+     "T522A"
+    ],
+    "RABVgp5": [
+     "Y8F",
+     "P46S",
+     "L61S",
+     "T93A",
+     "G139E",
+     "I170T",
+     "M207V",
+     "Q217K",
+     "M289V",
+     "K315R",
+     "V351A",
+     "S430P",
+     "K645R",
+     "N933S",
+     "S935P",
+     "P1092T",
+     "T1133S",
+     "G1139R",
+     "I1214V",
+     "M1218I",
+     "S1255A",
+     "I1304T",
+     "I1334V",
+     "E1336D",
+     "K1496R",
+     "A1564T",
+     "T1617V",
+     "G1619C",
+     "K1722R",
+     "R1841K",
+     "A1852V",
+     "M1860V",
+     "T1889A",
+     "V1974I",
+     "T2057A",
+     "V2089R",
+     "R2097K",
+     "G2105R",
+     "D2113K",
+     "G2130K",
+     "H2131F",
+     "F2132L",
+     "Q2133*",
+     "R2134*",
+     "K2139E",
+     "Q2143R"
+    ]
+   }
+  },
+  "BDR5": {
+   "aa_muts": {
+    "RABVgp1": [
+     "D378E"
+    ],
+    "RABVgp2": [
+     "S64P",
+     "K71T",
+     "A174V"
+    ],
+    "RABVgp3": [
+     "I168V"
+    ],
+    "RABVgp4": [
+     "L7S",
+     "M16T",
+     "D165N",
+     "H484R"
+    ],
+    "RABVgp5": [
+     "A19T",
+     "T93A",
+     "K657R",
+     "R1307K",
+     "V1755I",
+     "T2129M"
+    ]
+   }
+  },
+  "CAR_11/001h": {
+   "aa_muts": {
+    "RABVgp1": [],
+    "RABVgp2": [
+     "N135S"
+    ],
+    "RABVgp3": [],
+    "RABVgp4": [
+     "D160E",
+     "T186I",
+     "L279I",
+     "T423A",
+     "M471I"
+    ],
+    "RABVgp5": [
+     "L2017F",
+     "A2138D"
+    ]
+   }
+  },
+  "DRV_NG11": {
+   "aa_muts": {
+    "RABVgp1": [
+     "F81S",
+     "V427A"
+    ],
+    "RABVgp2": [
+     "R172K",
+     "A174V"
+    ],
+    "RABVgp3": [
+     "K60R",
+     "V95I",
+     "I155T"
+    ],
+    "RABVgp4": [
+     "W119R",
+     "H169L",
+     "S518N"
+    ],
+    "RABVgp5": [
+     "L309P",
+     "E401Q",
+     "S905P",
+     "L1125V",
+     "K1190R",
+     "I2136T"
+    ]
+   }
+  },
+  "Gra_07.10_6_F": {
+   "aa_muts": {
+    "RABVgp1": [
+     "D115G",
+     "V379T"
+    ],
+    "RABVgp2": [
+     "M53I",
+     "R54K",
+     "E61K",
+     "S64P",
+     "K71R",
+     "Y77C",
+     "Q82L",
+     "D84G",
+     "R139K",
+     "S141L",
+     "A160I",
+     "A174V",
+     "D193N",
+     "I205V",
+     "T248N"
+    ],
+    "RABVgp3": [
+     "P21L",
+     "M50L",
+     "R51K"
+    ],
+    "RABVgp4": [
+     "V13A",
+     "S15P",
+     "V152I",
+     "S179L",
+     "P202V",
+     "Q263P",
+     "K297R",
+     "M462I",
+     "S463I",
+     "L470M",
+     "M471I",
+     "V483G",
+     "T489K",
+     "T496I",
+     "V502S"
+    ],
+    "RABVgp5": [
+     "P21S",
+     "R48G",
+     "L85M",
+     "S97A",
+     "K200R",
+     "E296D",
+     "K459R",
+     "D533N",
+     "G1138R",
+     "G1140S",
+     "K1342R",
+     "S1372N",
+     "G1373S",
+     "G1411S",
+     "P1474Q",
+     "M1569L",
+     "K1663R",
+     "F1665L",
+     "N1716H",
+     "A1721V",
+     "M1748V",
+     "L1774S",
+     "T1775A",
+     "K1785R",
+     "A1882P",
+     "M1972I",
+     "V1982I",
+     "V2089I",
+     "R2101K",
+     "H2104Q",
+     "S2119T",
+     "T2129I",
+     "Q2133R",
+     "I2142V",
+     "R2143L"
+    ]
+   }
+  },
+  "IGU_R201_Nilgai": {
+   "aa_muts": {
+    "RABVgp1": [],
+    "RABVgp2": [
+     "S90N",
+     "S159P",
+     "S162H",
+     "S166N"
+    ],
+    "RABVgp3": [
+     "P21L",
+     "G46S"
+    ],
+    "RABVgp4": [
+     "V5A",
+     "F14V",
+     "N375S",
+     "I446V",
+     "K487R"
+    ],
+    "RABVgp5": [
+     "E18D",
+     "T93A",
+     "Q640H",
+     "N689S",
+     "G1373D",
+     "S1654L",
+     "Y1825C",
+     "A1882P",
+     "I2047V",
+     "I2115V",
+     "S2132P",
+     "L2135P",
+     "K2139R"
+    ]
+   }
+  },
+  "IP_1586/10": {
+   "aa_muts": {
+    "RABVgp1": [
+     "I56V",
+     "D68E",
+     "T84A",
+     "E87D",
+     "K112R",
+     "D115N",
+     "T209A",
+     "I379M",
+     "Y394N"
+    ],
+    "RABVgp2": [
+     "N7S",
+     "G65D",
+     "I69K",
+     "A72V",
+     "S75R",
+     "E85D",
+     "G135S",
+     "T136M",
+     "G138R",
+     "D143E",
+     "A149S",
+     "G150S",
+     "T158V",
+     "S166I",
+     "S169L",
+     "A171V",
+     "A178T",
+     "G246S",
+     "S296F"
+    ],
+    "RABVgp3": [
+     "T45A",
+     "I55V",
+     "R77K",
+     "I97V",
+     "R190K"
+    ],
+    "RABVgp4": [
+     "N56S",
+     "M121V",
+     "G175S",
+     "V183I",
+     "P202A",
+     "K224R",
+     "A261T",
+     "A469G",
+     "T503P",
+     "R523G"
+    ],
+    "RABVgp5": [
+     "K55R",
+     "K74R",
+     "I130V",
+     "M207T",
+     "S233N",
+     "T456S",
+     "I755V",
+     "V1020I",
+     "P1092L",
+     "R1778K",
+     "E1785D",
+     "E1924D",
+     "I1967V",
+     "N2046D",
+     "A2058T",
+     "S2091R",
+     "G2130V",
+     "F2132S",
+     "R2134G",
+     "V2136I"
+    ]
+   }
+  },
+  "InDRE3944": {
+   "aa_muts": {
+    "RABVgp1": [
+     "N119S"
+    ],
+    "RABVgp2": [
+     "G61E",
+     "K71N",
+     "A72V",
+     "S90N",
+     "N135S",
+     "G150S",
+     "P153L",
+     "T160S",
+     "P161H",
+     "S168P",
+     "A177S",
+     "S187T",
+     "L257I",
+     "C297V"
+    ],
+    "RABVgp3": [
+     "P19S",
+     "T148A"
+    ],
+    "RABVgp4": [
+     "S175R",
+     "T212V",
+     "V249I",
+     "V351I",
+     "D427E",
+     "A466V",
+     "N484T",
+     "G494R"
+    ],
+    "RABVgp5": [
+     "T64A",
+     "K89R",
+     "T118N",
+     "I207T",
+     "K315R",
+     "K331R",
+     "S335N",
+     "R350V",
+     "R745Q",
+     "K1109R",
+     "T1137A",
+     "T1204N",
+     "M1218V",
+     "Q1333H",
+     "N1565T",
+     "V1653I",
+     "Y1825C",
+     "A1970S",
+     "V1974G",
+     "I2047V",
+     "V2089I",
+     "G2105S",
+     "L2127F",
+     "S2132Y",
+     "R2133L",
+     "V2136A"
+    ]
+   }
+  },
+  "Lao4": {
+   "aa_muts": {
+    "RABVgp1": [
+     "T84A",
+     "L128V",
+     "S135A",
+     "V281I",
+     "T375M",
+     "S426A",
+     "N443S"
+    ],
+    "RABVgp2": [
+     "M69I",
+     "G73A",
+     "K76Q",
+     "S141L",
+     "A149S",
+     "T157L",
+     "S161P",
+     "S162L",
+     "Q167K",
+     "S168P",
+     "H252R",
+     "D253E",
+     "D281E"
+    ],
+    "RABVgp3": [
+     "S20F",
+     "A24T",
+     "I55V",
+     "V95I"
+    ],
+    "RABVgp4": [
+     "A159S",
+     "G175S",
+     "S189P",
+     "V260A",
+     "L279I",
+     "H283R",
+     "T312S",
+     "A464V",
+     "L467M",
+     "R482K",
+     "R485G",
+     "S492R",
+     "P493L"
+    ],
+    "RABVgp5": [
+     "M1L",
+     "P4S",
+     "T24A",
+     "K48R",
+     "L76F",
+     "L88V",
+     "T118A",
+     "V157I",
+     "D190E",
+     "N235S",
+     "K380R",
+     "L428F",
+     "P1092S",
+     "K1127R",
+     "A1136T",
+     "G1140E",
+     "K1319R",
+     "T1328I",
+     "I1334V",
+     "G1402S",
+     "A1564T",
+     "D1619G",
+     "M1626V",
+     "I1658V",
+     "R1664K",
+     "V1755I",
+     "I1759V",
+     "A1882T",
+     "T2015M",
+     "V2089I",
+     "S2096P",
+     "E2100A",
+     "Q2104R",
+     "T2129A",
+     "H2131D",
+     "W2133C",
+     "P2135S",
+     "D2137Y",
+     "T2140I"
+    ]
+   }
+  },
+  "NB.2015.0201": {
+   "aa_muts": {
+    "RABVgp1": [],
+    "RABVgp2": [
+     "N60S"
+    ],
     "RABVgp3": [
      "S20P"
     ],
     "RABVgp4": [
+     "G367R",
      "D420N",
-     "V437I"
+     "L453I",
+     "V483I",
+     "I496M"
     ],
     "RABVgp5": [
-     "R144K",
-     "K1596R",
-     "T1617A"
-    ]
-   }
-  },
-  "ME.2013.0025": {
-   "aa_muts": {
-    "RABVgp1": [
-     "V305I",
-     "D391E"
-    ],
-    "RABVgp2": [],
-    "RABVgp3": [],
-    "RABVgp4": [
-     "M63V"
-    ],
-    "RABVgp5": [
-     "N683D",
-     "S878G",
-     "N1078D",
-     "T1137A",
-     "R1600L",
-     "V1636I",
-     "V2089A"
-    ]
-   }
-  },
-  "ME.2014.0038": {
-   "aa_muts": {
-    "RABVgp1": [
-     "R270K"
-    ],
-    "RABVgp2": [
-     "G65D",
-     "D194E",
-     "K282R"
-    ],
-    "RABVgp3": [],
-    "RABVgp4": [],
-    "RABVgp5": [
-     "H883R",
-     "A1136G",
-     "I2034V",
-     "D2056N",
-     "S2070N",
-     "N2135D"
+     "A106S",
+     "V502I",
+     "S1332P",
+     "T1617A",
+     "D2113N",
+     "G2142R"
     ]
    }
   },
   "NODE_0000000": {
    "aa_muts": {
-    "RABVgp1": [
-     "T3S",
-     "S42T",
-     "I56V",
-     "N106D",
-     "D110A",
-     "K112R",
-     "I134V",
-     "P135S",
-     "S166A",
-     "K254R",
-     "G267E",
-     "S303N",
-     "T332A",
-     "N362D",
-     "A371T",
-     "E378D",
-     "V379A",
-     "Q432P",
-     "N448S",
-     "P450S"
-    ],
+    "RABVgp1": [],
     "RABVgp2": [],
     "RABVgp3": [],
     "RABVgp4": [],
     "RABVgp5": []
+   }
+  },
+  "NODE_0000001": {
+   "aa_muts": {
+    "RABVgp1": [
+     "D378E"
+    ],
+    "RABVgp2": [
+     "N29A",
+     "Y77C",
+     "D135G",
+     "S145A"
+    ],
+    "RABVgp3": [
+     "P21L",
+     "L199V"
+    ],
+    "RABVgp4": [
+     "F14S",
+     "V152I",
+     "N201K",
+     "N455S",
+     "S463I",
+     "Q490R",
+     "S492G",
+     "G497E",
+     "S504P",
+     "S506N"
+    ],
+    "RABVgp5": [
+     "V12I",
+     "V27I",
+     "H61L",
+     "H933N",
+     "K1364R",
+     "G1411S",
+     "R1556K",
+     "D1619G",
+     "F1665L",
+     "V1755I",
+     "K1785E",
+     "S1852A",
+     "M1965V",
+     "Q2104R",
+     "P2135N",
+     "H2137Q"
+    ]
    }
   },
   "NODE_0000002": {
    "aa_muts": {
-    "RABVgp1": [],
-    "RABVgp2": [],
-    "RABVgp3": [],
-    "RABVgp4": [],
-    "RABVgp5": []
+    "RABVgp1": [
+     "A3T",
+     "T42S",
+     "D106N",
+     "V134I",
+     "S135P",
+     "A166S",
+     "R254K",
+     "E267G",
+     "N303S",
+     "D362N",
+     "E368D",
+     "M411I",
+     "S448N",
+     "S450P"
+    ],
+    "RABVgp2": [
+     "N48S",
+     "E51D",
+     "Q57H",
+     "D60N",
+     "L66F",
+     "G67D",
+     "E68K",
+     "M69V",
+     "A70T",
+     "A72E",
+     "Q78H",
+     "T130M",
+     "V131I",
+     "P136S",
+     "P137L",
+     "S140P",
+     "G150N",
+     "E156G",
+     "T157V",
+     "T158A",
+     "A160V",
+     "R164L",
+     "S166G",
+     "M173A",
+     "D253E",
+     "K272R",
+     "T295L",
+     "C297R",
+     "*298Q"
+    ],
+    "RABVgp3": [
+     "T16D",
+     "V22A",
+     "I55V",
+     "R77K",
+     "I97V",
+     "Q189H"
+    ],
+    "RABVgp4": [
+     "I2V",
+     "Q4W",
+     "L11F",
+     "T55N",
+     "N56S",
+     "T109M",
+     "A115S",
+     "V172I",
+     "S179T",
+     "I181L",
+     "P202A",
+     "R203G",
+     "P250S",
+     "S265L",
+     "P272S",
+     "I287L",
+     "K297R",
+     "N355S",
+     "M404V",
+     "T423A",
+     "L460M",
+     "A469T",
+     "I473F",
+     "R481K",
+     "K484N",
+     "E487K",
+     "G494R",
+     "T496I",
+     "V502F",
+     "G507K",
+     "I510V"
+    ],
+    "RABVgp5": [
+     "I15V",
+     "A19S",
+     "P25S",
+     "T26N",
+     "P46S",
+     "F80L",
+     "T93A",
+     "C136F",
+     "K200R",
+     "D201E",
+     "V229I",
+     "N235H",
+     "Q311Y",
+     "S335N",
+     "R409K",
+     "S426P",
+     "K459R",
+     "N883H",
+     "I892V",
+     "K1018R",
+     "R1059K",
+     "S1060N",
+     "V1087I",
+     "P1092A",
+     "I1203V",
+     "P1323S",
+     "G1373D",
+     "V1426I",
+     "S1561N",
+     "T1615A",
+     "K1722R",
+     "I1843V",
+     "A1852T",
+     "L1890I",
+     "I1969V",
+     "Y1992N",
+     "R2039G",
+     "Q2041K",
+     "S2073A",
+     "S2091N",
+     "I2092T",
+     "D2094N",
+     "R2116K",
+     "F2132L",
+     "Q2133E",
+     "V2136T",
+     "Q2137W",
+     "K2139N"
+    ]
    }
   },
   "NODE_0000003": {
+   "aa_muts": {
+    "RABVgp1": [
+     "I257L",
+     "V379I",
+     "G397S"
+    ],
+    "RABVgp2": [
+     "E42D",
+     "E68G",
+     "M69I",
+     "G86A",
+     "S90A",
+     "V102I",
+     "P136T",
+     "R139K",
+     "P153L",
+     "S168P",
+     "R172K",
+     "A188V",
+     "T189A",
+     "L195P",
+     "T295A",
+     "C297F"
+    ],
+    "RABVgp3": [
+     "V22I",
+     "Q154E"
+    ],
+    "RABVgp4": [
+     "P3L",
+     "H132Q",
+     "S179L",
+     "K201E",
+     "N213S",
+     "R218K",
+     "R365K",
+     "N375D",
+     "H389N",
+     "T468A",
+     "M471I",
+     "T478A",
+     "V483A",
+     "I489R",
+     "Q491R",
+     "P493S",
+     "T496S",
+     "S501P",
+     "S515L",
+     "G519E",
+     "K523R"
+    ],
+    "RABVgp5": [
+     "P21S",
+     "L88I",
+     "H107Y",
+     "R115K",
+     "V205I",
+     "N235G",
+     "Q285H",
+     "V328A",
+     "K331R",
+     "S335G",
+     "A430S",
+     "R489K",
+     "N683G",
+     "D880E",
+     "A1136V",
+     "Q1276H",
+     "K1279R",
+     "R1307K",
+     "K1342R",
+     "Q1356R",
+     "I1487V",
+     "V1516A",
+     "D1524E",
+     "N1623S",
+     "K1625R",
+     "V1653A",
+     "A1660T",
+     "K1663R",
+     "R2039M",
+     "I2047T",
+     "S2058A",
+     "L2141P"
+    ]
+   }
+  },
+  "NODE_0000004": {
+   "aa_muts": {
+    "RABVgp1": [
+     "I56V",
+     "D110E",
+     "T332A"
+    ],
+    "RABVgp2": [
+     "E61G",
+     "Q78R",
+     "D135N"
+    ],
+    "RABVgp3": [
+     "Q87H"
+    ],
+    "RABVgp4": [
+     "I13V",
+     "K215R",
+     "G223S",
+     "P250L",
+     "L460V",
+     "T468I",
+     "K484N",
+     "Q491H"
+    ],
+    "RABVgp5": [
+     "N24T",
+     "Q122H",
+     "I170T",
+     "M207I",
+     "K350R",
+     "D880E",
+     "I1144V",
+     "K1302R",
+     "I1304T",
+     "I1321V",
+     "K1374R",
+     "E1589D",
+     "R2097G",
+     "K2101R",
+     "D2113E",
+     "G2142R"
+    ]
+   }
+  },
+  "NODE_0000005": {
+   "aa_muts": {
+    "RABVgp1": [],
+    "RABVgp2": [
+     "G67S",
+     "K71T",
+     "P137S",
+     "P153L",
+     "T158P"
+    ],
+    "RABVgp3": [],
+    "RABVgp4": [
+     "T268I",
+     "I473M",
+     "V483A",
+     "T486A",
+     "K508R"
+    ],
+    "RABVgp5": [
+     "H61Y",
+     "V83L",
+     "L424I",
+     "R1307K",
+     "R1778K",
+     "R2039K",
+     "Q2133*",
+     "H2137D"
+    ]
+   }
+  },
+  "NODE_0000006": {
+   "aa_muts": {
+    "RABVgp1": [],
+    "RABVgp2": [
+     "S169L",
+     "A174E"
+    ],
+    "RABVgp3": [
+     "I168V"
+    ],
+    "RABVgp4": [
+     "I268V",
+     "I446V",
+     "N455S"
+    ],
+    "RABVgp5": [
+     "A430P",
+     "*2133W",
+     "R2142K"
+    ]
+   }
+  },
+  "NODE_0000007": {
+   "aa_muts": {
+    "RABVgp1": [],
+    "RABVgp2": [
+     "G65D",
+     "A149T",
+     "S241A"
+    ],
+    "RABVgp3": [],
+    "RABVgp4": [
+     "I2V",
+     "G175S",
+     "I262M",
+     "H283R",
+     "T486P",
+     "I489T",
+     "P493L",
+     "K523R"
+    ],
+    "RABVgp5": [
+     "I2L",
+     "K48R",
+     "L428F",
+     "D882E",
+     "N883S",
+     "K1319R",
+     "S1535A",
+     "R1841K",
+     "Q2104H",
+     "T2138A",
+     "R2142I"
+    ]
+   }
+  },
+  "NODE_0000008": {
+   "aa_muts": {
+    "RABVgp1": [
+     "F80L",
+     "V116I",
+     "F213Y"
+    ],
+    "RABVgp2": [
+     "E51D",
+     "D59E",
+     "D65N",
+     "L66F",
+     "M69I",
+     "K71E",
+     "A72V",
+     "R139K",
+     "S141L",
+     "S159L",
+     "A160S",
+     "K273R",
+     "I286V"
+    ],
+    "RABVgp3": [
+     "L4I"
+    ],
+    "RABVgp4": [
+     "Q4L",
+     "F8V",
+     "F14L",
+     "F18S",
+     "K102R",
+     "M121L",
+     "K166R",
+     "S189P",
+     "T212V",
+     "Q263R",
+     "N355D",
+     "N375H",
+     "G428D",
+     "R482K",
+     "V483I",
+     "N484K",
+     "P486S",
+     "G494R",
+     "S506N"
+    ],
+    "RABVgp5": [
+     "P21S",
+     "P25S",
+     "E52D",
+     "T93I",
+     "A121T",
+     "R431K",
+     "T436A",
+     "K459R",
+     "N683D",
+     "R745Q",
+     "H933Q",
+     "R1059K",
+     "K1279R",
+     "N1463D",
+     "K1624R",
+     "K1625R",
+     "F1761I",
+     "T1775A",
+     "R1778K",
+     "A1804T",
+     "L1868I",
+     "T1961A",
+     "V2089I",
+     "S2091R",
+     "H2104R",
+     "G2130E",
+     "F2132L",
+     "V2136I",
+     "I2142M",
+     "Q2143N"
+    ]
+   }
+  },
+  "NODE_0000009": {
+   "aa_muts": {
+    "RABVgp1": [],
+    "RABVgp2": [
+     "S75G",
+     "T177A"
+    ],
+    "RABVgp3": [],
+    "RABVgp4": [
+     "E495G"
+    ],
+    "RABVgp5": [
+     "T24A",
+     "R115K",
+     "M1626V",
+     "M1860V",
+     "M1965V",
+     "S1966A",
+     "F2132S",
+     "Q2143R"
+    ]
+   }
+  },
+  "NODE_0000010": {
+   "aa_muts": {
+    "RABVgp1": [
+     "M60L",
+     "S135P",
+     "V179I",
+     "A371T",
+     "T407A"
+    ],
+    "RABVgp2": [
+     "R30K",
+     "G61E",
+     "D65G",
+     "P153L",
+     "E165D",
+     "A267G",
+     "C297S"
+    ],
+    "RABVgp3": [],
+    "RABVgp4": [
+     "L16M",
+     "V183I",
+     "A466V",
+     "I473T",
+     "R481G",
+     "E487K"
+    ],
+    "RABVgp5": [
+     "D119E",
+     "D201E",
+     "R350G",
+     "F428L",
+     "T1133S",
+     "I1591V",
+     "C1632G",
+     "V2099I",
+     "P2135L",
+     "H2137Q"
+    ]
+   }
+  },
+  "NODE_0000011": {
+   "aa_muts": {
+    "RABVgp1": [
+     "A332G"
+    ],
+    "RABVgp2": [
+     "Q57H",
+     "G75V",
+     "A177T"
+    ],
+    "RABVgp3": [],
+    "RABVgp4": [
+     "A5V",
+     "S223G",
+     "N455S",
+     "M462V",
+     "I468V",
+     "A469V",
+     "L476I",
+     "N484H"
+    ],
+    "RABVgp5": [
+     "K55T",
+     "H61Y",
+     "A430T",
+     "R1302K",
+     "R1778K",
+     "S2058A",
+     "H2104R",
+     "S2117C"
+    ]
+   }
+  },
+  "NODE_0000012": {
+   "aa_muts": {
+    "RABVgp1": [],
+    "RABVgp2": [
+     "E68G",
+     "K71Q"
+    ],
+    "RABVgp3": [],
+    "RABVgp4": [
+     "S492G"
+    ],
+    "RABVgp5": [
+     "K315R",
+     "S1133P"
+    ]
+   }
+  },
+  "NODE_0000013": {
+   "aa_muts": {
+    "RABVgp1": [],
+    "RABVgp2": [
+     "T130A"
+    ],
+    "RABVgp3": [],
+    "RABVgp4": [
+     "N375K",
+     "M477I",
+     "V483I"
+    ],
+    "RABVgp5": [
+     "A24P",
+     "S335N"
+    ]
+   }
+  },
+  "NODE_0000014": {
+   "aa_muts": {
+    "RABVgp1": [],
+    "RABVgp2": [
+     "Q57H",
+     "N284S"
+    ],
+    "RABVgp3": [
+     "G46S"
+    ],
+    "RABVgp4": [
+     "I446V"
+    ],
+    "RABVgp5": []
+   }
+  },
+  "NODE_0000015": {
+   "aa_muts": {
+    "RABVgp1": [
+     "S40C"
+    ],
+    "RABVgp2": [
+     "P63S",
+     "D65N",
+     "A160T",
+     "S161P",
+     "P280A"
+    ],
+    "RABVgp3": [],
+    "RABVgp4": [
+     "H491R"
+    ],
+    "RABVgp5": [
+     "V12I",
+     "H61Y",
+     "K1364R",
+     "T1775A",
+     "Q2133R",
+     "R2134K",
+     "I2142V",
+     "R2143*"
+    ]
+   }
+  },
+  "NODE_0000017": {
+   "aa_muts": {
+    "RABVgp1": [],
+    "RABVgp2": [
+     "P137S",
+     "T295A"
+    ],
+    "RABVgp3": [],
+    "RABVgp4": [
+     "M462L"
+    ],
+    "RABVgp5": [
+     "K115R",
+     "R1059K",
+     "H2131Y"
+    ]
+   }
+  },
+  "NODE_0000018": {
+   "aa_muts": {
+    "RABVgp1": [
+     "S448N"
+    ],
+    "RABVgp2": [],
+    "RABVgp3": [],
+    "RABVgp4": [
+     "V502I"
+    ],
+    "RABVgp5": [
+     "I15V"
+    ]
+   }
+  },
+  "NODE_0000019": {
+   "aa_muts": {
+    "RABVgp1": [],
+    "RABVgp2": [
+     "R30K"
+    ],
+    "RABVgp3": [],
+    "RABVgp4": [
+     "A5V",
+     "I473M"
+    ],
+    "RABVgp5": [
+     "S1561G",
+     "G2130E"
+    ]
+   }
+  },
+  "NODE_0000020": {
    "aa_muts": {
     "RABVgp1": [],
     "RABVgp2": [],
@@ -162,14 +2154,653 @@
     "RABVgp5": []
    }
   },
-  "NODE_0000005": {
+  "NODE_0000021": {
+   "aa_muts": {
+    "RABVgp1": [],
+    "RABVgp2": [
+     "S64P"
+    ],
+    "RABVgp3": [],
+    "RABVgp4": [],
+    "RABVgp5": [
+     "M1218V"
+    ]
+   }
+  },
+  "NODE_0000022": {
+   "aa_muts": {
+    "RABVgp1": [
+     "V179I"
+    ],
+    "RABVgp2": [
+     "S284N"
+    ],
+    "RABVgp3": [],
+    "RABVgp4": [
+     "A466T"
+    ],
+    "RABVgp5": [
+     "S1561G",
+     "V2136A"
+    ]
+   }
+  },
+  "NODE_0000023": {
+   "aa_muts": {
+    "RABVgp1": [
+     "T123A",
+     "A371T"
+    ],
+    "RABVgp2": [
+     "V25I",
+     "A70S",
+     "A72T",
+     "I104M",
+     "A295T"
+    ],
+    "RABVgp3": [
+     "I168L",
+     "E192D"
+    ],
+    "RABVgp4": [
+     "S15P",
+     "T109I",
+     "S223G",
+     "L279M"
+    ],
+    "RABVgp5": [
+     "P46S",
+     "D67E",
+     "S878N",
+     "S883N",
+     "A1136T",
+     "G1140S",
+     "M1172V",
+     "T1617A",
+     "I1806V",
+     "Y1825C",
+     "E2113K",
+     "R2116K",
+     "Y2131H",
+     "S2132P",
+     "R2133Q",
+     "A2138P",
+     "L2141F"
+    ]
+   }
+  },
+  "NODE_0000024": {
+   "aa_muts": {
+    "RABVgp1": [],
+    "RABVgp2": [
+     "T158P"
+    ],
+    "RABVgp3": [],
+    "RABVgp4": [
+     "E487K"
+    ],
+    "RABVgp5": [
+     "P2135S"
+    ]
+   }
+  },
+  "NODE_0000026": {
    "aa_muts": {},
    "aa_sequences": {
-    "RABVgp1": "MDTDKIVFKVNNQVVSLKPEIIVDQYEYKYPAIKDLKKPSISLGKAPDLNKAYKSILSGMNAAKLDPDDVCSYLAAAMQFFEGTCPEDWTSYGILIARKGDKITPNSLVDIKRTDVEGNWALTGGMELTRDPTIPEHASLVGLLLSLYRLSKISGQNTGNYKTNISDRIEQIFETAPFVKIVEHHTLMTTHKMCANWSTIPNFRFLAGTYDMFFSRIEHLYSAIRVGTVVTAYEDCSGLVSFTGFIKQINLTAKEAILYFFHKNFEGEIRRMFEPGQETAVPHSYFIHFRSLGLSGKSPYSSSAVGHVFNLIHFVGCYMGQVRSLNATVIATCAPHEMSVLGGYLGEEFFGKGTFERRFFRNEKELQDYEAAELTKTEVALADDGTVNSDDEDYFSGETRSPEAVYTRIMINGGRLKRSHIRRYVSVSSNHQARPNSFAEFLNKTYSNDP*",
-    "RABVgp2": "MSKIFVNPSAIRAGLADLEMAEETVDLIARNIEDNQAHLQGEPIEVDSLPDDMRRLHLDSEKPSGFDKVTKEGESKCHEDFQMDEGEDPSLLFQSYLDNVGVQIVRQMRSGERFLKIWSQTVEEIISYVMINFPGSLGRPSEDKATQTANREPKKGVASVSSQLEGQSSKARAAAQTASGPPALEWSATNEEDDLSVEAEIAHQIAESFSKKYKFPSRSSGIFLYNFEQLKMNLDDIVKESKNVPGVTRLAHEGSKLPLRCVLGWVALANSRKFQLLVEPDKLNKIMQDDLNRYLSRQ",
-    "RABVgp3": "MNFLRKIVKNCRDEDDQKPSLASAPPDDDDLWLPPPEYVPLKELTGKKNMRNFCVNGEVKVCSPNGYSFRILRHILKSFDEIYSGNQRMIGLVKVVVGLALSGAPVPEGMNWVYKLRRTLIFQWADSRGPLEGEELEYSQEITWDDDTEFVGLQIRVSARQCHIQGRIWCINMNSRACQLWSDMSLQTHRSEEDKDSSVLLE*",
-    "RABVgp4": "MVPWALLFVPFLISSLCFGKFPIYTIPDKLGPWSPIDIHHLSCPNNLVVEDEGCNSLSGFSYMELKVGYISAIKVNGFTCTGVVTEAETYTNFVGYVTTTFKRKHFRPMPDACRSAYNWKMAGDPRYEESLHNPYPDYHWLRTVKTTKESLIIISPSVADLDPYDKSLHSRIFPGGKCTGLTVSSTYCSTNHDYTIWMPEKAGLGTSCDIFTNSKGKRASKGGKTCGFVDERGLYKSLKGACKLKLCGVSGLRLMDGTWVAIQTLDETKWCSPDQLVNLHDFHSDELEHLVVEELVRKREECLDALESIMTTKSVSFRRLSHLRKLVPGFGKAYTIFNKTLMEADAHYKSVRTWSEIIPSKGCLRVGGRCHPHVNGVFFNGIILGPDGHVLIPEMQSSLLQQHVELLESSVIPLMHPLADPSAVFKDGDEAEDFVEVHLPDVHKQISGVDLGLPSWGKYMLMIAGALTTLMLFIFLMTCCKRVNRTKSIRQGPREMERKVSFTPQNKKVVSSWESYKSGGETKL*",
-    "RABVgp5": "MIDPGEVYDDPIDPVESESEPRGNSNIPNILRNSDYNLNSPLIEDSAKLMLEWLKTGNRPLRMTLTDNCSRSYKVLKDYLKKVDLGSLKVGGAAAQSMISLWLYGSHSESNRSRRCITDLAQFYSKSSPIEKLLNFTLGNRGLRIPPEGVLSCLERVDYDKAFGRYLANIYSSYLFFHVITLYMNALDWDEEKTILALWRELTSVDMGKDLVKFKDQIWGLLIVTKDFIYSQSSHCLFDRNYTLMLKDLFLSRFNSLMILLSPPEPRYSDDLISQLCQLYIAGDQVLSMCGNSGYEVIKILEPYVVNSLVYRAEKFRPLIHSLGDFPVFIKDKVNQLEGTFGPSAKRFFKVLDQFDNIHDLVFVYGCYRHWGHPYIDYRKGLSKLYDQVHIKKVIDKSYQECLASDLAKRILRWGFDKYSKWYLDPRLLARDHPLTPYIKTQTWPPKHIVDLVGDTWHRLPITQIFEIPESMDPSEILDDKSHSFTRTRLASWLSENRGGPVPSEKVIITALSKPPVNPREFLKSIDLGGLPDEDLIIGLKPKERELKIEGRFFALMSWNLRLYFVITEKLLANYILPLFDALTMTDNLNKVFKKLIDRVTGQGLLDYSRVTYAFHLDYEKWNNHQRLESTEDVFSVLDQVFGLKRVFSRTHEFFQKSWIYYSDRSDLIGLWEDQIYCLDMSNGPTCWNGQDGGLEGLRQKGWSLVSLLMIDRESQTRNTRTKILAQGDNQVLCPTYMLSPGLSREGLLYELESISRNALSIYRAIEEGASKLGLIIKKEETMCSYDFLIYGKTPLFRGNILVPESKRWARVSCISNDQIVNLANIMSTVSTNALTVAQHSQSLIKPMRDFLLMSVQAVFHYLLFSPILKGRVYKILSADGDHFLLAMSRIVYLDPSLGGVSGMSLGRFHIRQFSDPVSEGLSFWREIWLSSNESWIHALCQEAGNPDLGERTLESFTRLLEDPTTLNIKGGASPTILLKDAIRKALYDEVDKVENSEFREAILLSKTHRDNFILFLRSVEPLFPRFLSELFSSSFLGIPESIIGLIQNSRTIRRQFRKNLSRTLEESFYNSEIHGINRMTQTPQRIGRVWACSSERADLLREISWGRKVVGTTVPHPSEMLGLLPKSSISCTCGATGGGNPRISVSVLPSFDQSFFSRGPLKGYLGSSTSMSTQLFHAWEKVTNVHVVKRALSLKESINWFVTRNSNLAQTLIRNIMSLTGPDFPLEEAPVFKRTGSALHRFKSARYSEGGYSSVCPNLLSHISVSTDTMSDLTQDGKNYDFMFQPLMLYAQTWTSELVQKDIRLRDSTFHWHLRCNKCIRSIDDITLETSQIFEFPDVSKRISRMVSGAVPHFQKLPDIRLRPGDFESLSDKEKSRHIGSAQGLLYSILVAIHDSGYNDGTIFPVNIYSKVSPRDYLRGLARGILIGSSICFLTRMTNININRPLELISGVISYILLRLDNHPSLYIMLREPSLRGEIFSIPQKIPAAYPTTMKEGNRSILCYLQHVLRYEREVITASPENDWLWIFSDFRSSKMTYLTLITYQSHLLLQRVEKNLSKNMRANLRQMSSLMRQVLGGHGEDTLESDEDIQRLLKDSLRRTRWVDQEVRHAARAMTGGYSPNKKMSRKAGCSEWVCSAQQVAVSTSANPAPVSELDIRALSKRLQNPLISGLRVVQWATGAHYKLKPILDDLNVFPSLCLVVGDGSGGISRAVLNMFPDARLVFNSLLEVNDLMASGTHPLPPSAIMSGGDDIISRVIDFDSIWEKPSDLRNLTTWRYFQSVQEQVNMSYDLIICDAEVTDIASINRITLLMSDFALSIDGPLYLVFKTYGTMLVNPDYRAVQHLSRAFPTVTGFITQMTSSFSSELYLRFSKRGKFFRDAEYLTSSTIREMSLVLFNCSSPKSEMQRARSLNYQDLVRGFPEEIISNPYNEMIITLIDSDVESFLVHKMVDDLELQRGTLSKVSIIVAIMIVFSNRVFNVSKPLTDPLFNPPSDPKILRHFNICCSTMMYLSTALGDVPSFARLHDLYNRPITYYFGKKVIRGNIYLSWSWSDDTSVFKRVACNSSLSLSAHWIRLIYKIVKTTRLVGNTENLSREVEKHLRGYNRWITLNDIKSRSSLLDYSCL*NGHLERNTWTNTLRQ"
+    "RABVgp1": "MDADKIVFKVNNQVVSLKPEIIVDQYEYKYPAIKDLKKPSITLGKAPDLNKAYKSILSGMNAAKLDPDDVCSYLAAAMQFFEGTCPEDWTSYGILIARKGDKITPDSLVDIKRTDVEGNWALTGGMELTRDPTVSEHASLVGLLLSLYRLSKISGQNTGNYKTNIADRIEQIFETAPFVKIVEHHTLMTTHKMCANWSTIPNFRFLAGTYDMFFSRIEHLYSAIRVGTVVTAYEDCSGLVSFTGFIKQINLTAREAILYFFHKNFEEEIRRMFEPGQETAVPHSYFIHFRSLGLSGKSPYSSNAVGHVFNLIHFVGCYMGQVRSLNATVIATCAPHEMSVLGGYLGEEFFGKGTFERRFFRDEKELQEYEAAELTKTDVALADDGTVNSDDEDYFSGETRSPEAVYTRIMMNGGRLKRSHIRRYVSVSSNHQARPNSFAEFLNKTYSSDS*",
+    "RABVgp2": "MSKIFVNPSAIRAGLADLEMAEETVDLINRNIEDNQAHLQGEPIEVDNLPEDMRRLQLDDEKPSGLGEMAKAGESKYQEDFQMDEGEDPSLLFQSYLDNVGVQIVRQMRSGERFLKIWSQTVEEIISYVTVNFPDPPGRSSEDKSTQTAGREPKKETTSASSQRESQSSKARMAAQTASGPPALEWSATNEEDDLSVEAEIAHQIAESFSKKYKFPSRSSGIFLYNFEQLKMNLDDIVKESKNVPGVTRLAHDGSKLPLRCVLGWVALANSKKFQLLVEPDKLNKIMQDDLNRYTSC*",
+    "RABVgp3": "MNFLRKIVKNCRDEDTQKPSPVSAPPDDDDLWLPPPEYVPLKELTGKKNMRNFCINGEVKVCSPNGYSFRILRHILRSFDEIYSGNQRMIGLVKVVIGLALSGAPVPEGMNWVYKLRRTLIFQWADSRGPLEGEELEYSQEITWDDDTEFVGLQIRVSARQCHIQGRIWCINMNSRACQLWSDMSLQTQRSEEDKDSSLLLE*",
+    "RABVgp4": "MIPQALLFVPLLIFSLCFGKFPIYTIPDKLGPWSPIDIHHLSCPNNLVVEDEGCTNLSGFSYMELKVGYISAIKVNGFTCTGVVTEAETYTNFVGYVTTTFKRKHFRPTPDACRAAYNWKMAGDPRYEESLHNPYPDYHWLRTVKTTKESLVIISPSVADLDPYDKSLHSRVFPGGKCSGITVSSTYCSTNHDYTIWMPENPRLGTSCDIFTNSKGKRASKGGKTCGFVDERGLYKSLKGACKLKLCGVPGLRLMDGTWVAIQTSDETKWCPPDQLVNLHDFHSDEIEHLVVEELVKKREECLDALESIMTTKSVSFRRLSHLRKLVPGFGKAYTIFNKTLMEADAHYKSVRTWNEIIPSKGCLRVGGRCHPHVNGVFFNGIILGPDGHVLIPEMQSSLLQQHMELLESSVIPLMHPLADPSTVFKDGDEAEDFVEVHLPDVHKQISGVDLGLPNWGKYLLMSAGALTALMLIIFLMTCCRRVKRTESIQQSPGETGRKVSVTSQSGKVISSWESYKSGGETKL*",
+    "RABVgp5": "MIDPGEVYDDPVDPIESEAEPRGNPTVPNILRNSDYNLNSPLIEDPAKLMLEWLKTGNRPHRMTLTDNCSRSYKVLKDYFKKVDLGSLKVGGTAAQSMISLWLYGAHSESNRSRRCITDLAQFYSKSSPIEKLLNCTLGNRGLRIPPEGVLSCLERVDYDKAFGRYLANIYSSYLFFHVITLYMNALDWDEEKTILALWKDLTSVDMGKDLVKFKDQIWGLLIVTKDFVYSQSSNCLFDRNYTLMLKDLFLSRFNSLMILLSPPEPRYSDDLISQLCQLYIAGDQVLSMCGNSGYEVIKILEPYVVNSLVQRAEKFRPLIHSLGDFPVFIKDKVSQLEGTFGPSAKRFFKVLDQFDNIHDLVFVYGCYRHWGHPYIDYRKGLSKLYDQVHIKKVIDKSYQECLASDLARRILRWGFDKYSKWYLDSRLLARDHPLTPYIKTQTWPPKHIVDLVGDTWHKLPITQIFEIPESMDPSEILDDKSHSFTRTRLASWLSENRGGPVPSEKVIITALSKPPVNPREFLKSIDLGGLPDEDLIIGLKPKERELKIEGRFFALMSWNLRLYFVITEKLLANYILPLFDALTMTDNLNKVFKKLIDRVTGQGLLDYSRVTYAFHLDYEKWNNHQRLESTEDVFSVLDQVFGLKRVFSRTHEFFQKSWIYYSDRSDLIGLWEDQIYCLDMSNGPTCWNGQDGGLEGLRQKGWSLVSLLMIDRESQTRNTRTKILAQGDNQVLCPTYMLSPGLSREGLLYELESISRNALSIYRAIEEGASKLGLIIKKEETMCSYDFLIYGKTPLFRGNILVPESKRWARVSCISNDQIVNLANIMSTVSTNALTVAQHSQSLIKPMRDFLLMSVQAVFHYLLFSPILKGRVYKILSADGDNFLLAMSRIIYLDPSLGGVSGMSLGRFHIRQFSDPVSEGLSFWREIWLSSHESWIHALCQEAGNPDLGERTLESFTRLLEDPTTLNIKGGASPTILLKDAIRKALYDEVDKVENSEFREAILLSKTHRDNFILFLKSVEPLFPRFLSELFSSSFLGIPESIIGLIQNSRTIRRQFRRSLSRTLEESFYNSEIHGINRMTQTPQRVGRVWPCSSERADLLREISWGRKVVGTTVPHPSEMLGLLPKSSISCTCGATGGGNPRISVSVLPSFDQSFFSRGPLKGYLGSSTSMSTQLFHAWEKVTNVHVVKRALSLKESINWFITRNSNLAQTLIRNIMSLTGPDFPLEEAPVFKRTGSALHRFKSARYSEGGYSSVCPNLLSHISVSTDTMSDLTQDGKNYDFMFQPLMLYAQTWTSELVQKDIRLRDSTFHWHLRCNKCIRPIDDITLETSQIFEFPDVSKRISRMVSGAVPHFQKLPDIRLKPGDFESLSGKEKSRHIGSAQGLLYSILVAIHDSGYNDGTIFPVNIYGKVSPRDYLRGLARGVLIGSSICFLTRMTNININRPLELISGVISYILLRLDNHPSLYIMLREPSLRGEIFSIPQKIPAAYPTTMKEGNRSILCYLQHVLRYEREVITASPENDWLWIFSDFRSSKMTYLTLITYQSHLLLQRVERNLSKSMRANLRQMSSLMRQVLGGHGEDTLESDEDIQRLLKDSLRRTRWVDQEVRHAARTMTGDYSPNKKMSRKAGCSEWVCSAQQVAVSTSANPAPVSELDIRALSKRFQNPLISGLRVVQWATGAHYKLKPILDDLNVFPSLCLVVGDGSGGISRAVLNMFPDAKLVFNSLLEVNDLMASGTHPLPPSAIMSGGDDIVSRVIDFDSIWEKPSDLRNLTTWRYFQSVQKQVNMSYDLIICDAEVTDIASINRITLLMSDFALSIDGPLYLVFKTYGTMLVNPDYRAIQHLSRAFPSVTGFITQMTSSFSSELYLRFSKRGKFFRDAEYLTSSTLREMSLVLFNCSSPKSEMQRARSLNYQDLVRGFPEEIISNPYNEMIITLIDSDVESFLVHKMVDDLELQRGTLSKMSIIIAIMIVFSNRVFNVSKPLTDPLFYPPSDPKILRHFNICCSTMMYLSTALGDVPSFARLHDLYNRPITYYFRKQVIRGNIYLSWSWSDDTSVFKRVACNSSLSLSSHWIRLIYKIVKTTRLVGSIEDLSREVEKHLQGYNRWITLDDIRSRSSLLDYSCL*TGHFQRPVHTKTLGQ"
+   }
+  },
+  "NY.2011.2001": {
+   "aa_muts": {
+    "RABVgp1": [],
+    "RABVgp2": [
+     "K71E"
+    ],
+    "RABVgp3": [],
+    "RABVgp4": [
+     "S488P"
+    ],
+    "RABVgp5": [
+     "S17F",
+     "I117M",
+     "E995G",
+     "I1543V",
+     "M1789I",
+     "E2133G"
+    ]
+   }
+  },
+  "Pk_23": {
+   "aa_muts": {
+    "RABVgp1": [],
+    "RABVgp2": [
+     "G67E"
+    ],
+    "RABVgp3": [],
+    "RABVgp4": [],
+    "RABVgp5": [
+     "D360E",
+     "R369S",
+     "P446L",
+     "M1748K",
+     "V1755F",
+     "S1756C",
+     "R1757I",
+     "D1760G",
+     "F1761I",
+     "K1904R"
+    ]
+   }
+  },
+  "R2012_26": {
+   "aa_muts": {
+    "RABVgp1": [
+     "T90I",
+     "E110D",
+     "K112R",
+     "V179I",
+     "A372T",
+     "L374S",
+     "N388D",
+     "M411I"
+    ],
+    "RABVgp2": [
+     "N29S",
+     "G65D",
+     "L66P",
+     "M69V",
+     "T71A",
+     "A72V",
+     "E74G",
+     "S75D",
+     "R78E",
+     "S90A",
+     "I104M",
+     "V131I",
+     "P134S",
+     "S137L",
+     "R151G",
+     "K155R",
+     "E165K",
+     "M173T",
+     "A175V",
+     "Q176H",
+     "A178T",
+     "V247I",
+     "R249H",
+     "V262I"
+    ],
+    "RABVgp3": [
+     "V8M",
+     "L31I",
+     "K60R",
+     "N65T",
+     "V106I",
+     "I155M",
+     "Q187R"
+    ],
+    "RABVgp4": [
+     "L11F",
+     "V13G",
+     "S15P",
+     "F18L",
+     "L47M",
+     "T109V",
+     "A115D",
+     "Y117H",
+     "R171S",
+     "N213Y",
+     "R215K",
+     "G222E",
+     "L250P",
+     "F282L",
+     "I287L",
+     "T423A",
+     "D427T",
+     "A466V",
+     "A469V",
+     "M471V",
+     "R481K",
+     "A483P",
+     "S488L",
+     "Q490H",
+     "G494R",
+     "G497E",
+     "S506G",
+     "S518N"
+    ],
+    "RABVgp5": [
+     "V12I",
+     "A19T",
+     "M63I",
+     "G86D",
+     "I117M",
+     "R144K",
+     "K200R",
+     "I207V",
+     "Q285R",
+     "R347K",
+     "R350E",
+     "L428R",
+     "T456S",
+     "E673G",
+     "S935A",
+     "S1060N",
+     "A1179T",
+     "R1362H",
+     "K1364R",
+     "V1407I",
+     "I1543V",
+     "H1548Y",
+     "A1564D",
+     "D1619N",
+     "A1648S",
+     "K1785N",
+     "Q1786K",
+     "D1839E",
+     "M1972V",
+     "S2014A",
+     "Q2104H",
+     "E2113A",
+     "T2129N",
+     "G2130E",
+     "P2135L",
+     "D2137E",
+     "T2138A",
+     "K2139E",
+     "T2140A",
+     "Q2143P"
+    ]
+   }
+  },
+  "RV2516": {
+   "aa_muts": {
+    "RABVgp1": [],
+    "RABVgp2": [
+     "H57N",
+     "M69I",
+     "A70V",
+     "K71R",
+     "S137P",
+     "P153S",
+     "A188T"
+    ],
+    "RABVgp3": [],
+    "RABVgp4": [
+     "S42T",
+     "D160N"
+    ],
+    "RABVgp5": [
+     "R350K",
+     "R1307K",
+     "V1755I",
+     "S2132P"
+    ]
+   }
+  },
+  "RV2854": {
+   "aa_muts": {
+    "RABVgp1": [
+     "T123A",
+     "R254K"
+    ],
+    "RABVgp2": [
+     "R30K",
+     "R54S",
+     "G61R",
+     "L66R",
+     "M69T",
+     "A72P",
+     "K76R",
+     "D84E",
+     "S90G",
+     "V100I",
+     "T130S",
+     "G138R",
+     "G150S",
+     "P161S",
+     "Q163K",
+     "M173T",
+     "A174V",
+     "A177V",
+     "A295S"
+    ],
+    "RABVgp3": [
+     "K9R",
+     "T45I"
+    ],
+    "RABVgp4": [
+     "V2G",
+     "P3S",
+     "V13G",
+     "F106L",
+     "I181M",
+     "R215K",
+     "T225I",
+     "L250T",
+     "T311I",
+     "T423A",
+     "V442A",
+     "K458E",
+     "S463G",
+     "V483G",
+     "P486L",
+     "S492G",
+     "G494R",
+     "G497R",
+     "V509A"
+    ],
+    "RABVgp5": [
+     "A19T",
+     "K77R",
+     "V83I",
+     "Y104H",
+     "D119E",
+     "C136Y",
+     "S233G",
+     "I300L",
+     "V328A",
+     "L528I",
+     "I928V",
+     "A939T",
+     "P1092S",
+     "K1127R",
+     "T1133I",
+     "A1136T",
+     "T1137S",
+     "D1224N",
+     "K1279R",
+     "R1319K",
+     "A1564S",
+     "V1626L",
+     "V1636I",
+     "D1752E",
+     "V1755A",
+     "I1843V",
+     "M2011L",
+     "A2024T",
+     "N2046T",
+     "G2130R",
+     "R2133W",
+     "A2138S",
+     "K2139E"
+    ]
+   }
+  },
+  "RV2924": {
+   "aa_muts": {
+    "RABVgp1": [],
+    "RABVgp2": [],
+    "RABVgp3": [],
+    "RABVgp4": [
+     "M63V"
+    ],
+    "RABVgp5": []
+   }
+  },
+  "RV2985": {
+   "aa_muts": {
+    "RABVgp1": [],
+    "RABVgp2": [
+     "K62Q",
+     "A72V",
+     "V100I",
+     "I286V"
+    ],
+    "RABVgp3": [],
+    "RABVgp4": [
+     "P3L",
+     "A5T",
+     "L11F",
+     "T212A",
+     "D266E",
+     "A469V",
+     "S488P",
+     "G520S"
+    ],
+    "RABVgp5": [
+     "H122Q",
+     "R347G",
+     "K1059R",
+     "T1204A",
+     "P1323L",
+     "D1619E",
+     "K2084R",
+     "I2092V",
+     "I2115V",
+     "K2134R"
+    ]
+   }
+  },
+  "RV3100.1": {
+   "aa_muts": {
+    "RABVgp1": [
+     "R254K",
+     "S448I"
+    ],
+    "RABVgp2": [
+     "G86R",
+     "T160A"
+    ],
+    "RABVgp3": [
+     "R77K"
+    ],
+    "RABVgp4": [],
+    "RABVgp5": [
+     "N1318S",
+     "G1561S"
+    ]
+   }
+  },
+  "Rus_Lipetsk_8057f_2011": {
+   "aa_muts": {
+    "RABVgp1": [
+     "D101T",
+     "N388H"
+    ],
+    "RABVgp2": [
+     "K62E",
+     "M69I",
+     "S141L",
+     "K154L"
+    ],
+    "RABVgp3": [],
+    "RABVgp4": [
+     "S15P",
+     "C17S",
+     "F18S",
+     "K102R",
+     "K145T",
+     "S179L",
+     "K239R",
+     "D427E",
+     "R482K",
+     "V500G"
+    ],
+    "RABVgp5": [
+     "Y104H",
+     "K200R",
+     "Q640R",
+     "V647A",
+     "T1081I",
+     "M1121R",
+     "G1135R",
+     "N1318S",
+     "E1655K",
+     "A1660T",
+     "I1795V",
+     "C1796G",
+     "A1804E",
+     "V1965G",
+     "A1966P",
+     "F1980L",
+     "I2043S"
+    ]
+   }
+  },
+  "SXBJ15": {
+   "aa_muts": {
+    "RABVgp1": [
+     "T42S",
+     "V379L"
+    ],
+    "RABVgp2": [
+     "E51D",
+     "S67N",
+     "T71A",
+     "S90G",
+     "L91F",
+     "P134S",
+     "N135T",
+     "S140P",
+     "A149V",
+     "R151K",
+     "A174V",
+     "I286V",
+     "N292S"
+    ],
+    "RABVgp3": [
+     "Q17H",
+     "S20F",
+     "P21S",
+     "V22A",
+     "N172D"
+    ],
+    "RABVgp4": [
+     "A5V",
+     "L16S",
+     "T109M",
+     "M121V",
+     "Y187C",
+     "S223G",
+     "S308T",
+     "V351I",
+     "Q401H",
+     "M462I",
+     "I468T",
+     "M473T",
+     "R482K",
+     "A483T",
+     "E487G",
+     "Q505H",
+     "S506N",
+     "G520S"
+    ],
+    "RABVgp5": [
+     "T64A",
+     "D360G",
+     "R431K",
+     "T436N",
+     "I660V",
+     "R1059K",
+     "A1136T",
+     "G1139R",
+     "R1215K",
+     "S1332P",
+     "R1362H",
+     "G1411S",
+     "N1444H",
+     "T1617I",
+     "V1653F",
+     "A1660T",
+     "R1664K",
+     "K1722R",
+     "K1785R",
+     "Q1786K",
+     "I1806V",
+     "D1839E",
+     "V2089I",
+     "I2092V",
+     "G2097R",
+     "I2115L",
+     "H2131P",
+     "R2134K",
+     "P2135F",
+     "D2137G",
+     "Q2143R"
+    ]
+   }
+  },
+  "Tajik_FTA": {
+   "aa_muts": {
+    "RABVgp1": [],
+    "RABVgp2": [
+     "G67C",
+     "A70V",
+     "K71N",
+     "D84N",
+     "S90N"
+    ],
+    "RABVgp3": [],
+    "RABVgp4": [
+     "L11I",
+     "L472V",
+     "E487K"
+    ],
+    "RABVgp5": [
+     "A19P",
+     "V297I",
+     "I300M",
+     "S335N",
+     "S883N",
+     "E934D",
+     "D1752E",
+     "S2022N",
+     "I2043V",
+     "N2046S",
+     "H2104R",
+     "T2129P",
+     "P2135L",
+     "*2143R"
+    ]
+   }
+  },
+  "sub5791": {
+   "aa_muts": {
+    "RABVgp1": [
+     "L95P"
+    ],
+    "RABVgp2": [
+     "G75S",
+     "R78Q",
+     "S137P",
+     "T157A",
+     "D194N"
+    ],
+    "RABVgp3": [
+     "E132D"
+    ],
+    "RABVgp4": [
+     "I153V",
+     "V374M",
+     "V460I",
+     "A466V",
+     "V483T",
+     "R491S"
+    ],
+    "RABVgp5": [
+     "I12V",
+     "D78E",
+     "R144K",
+     "L221P",
+     "K331R",
+     "V641A",
+     "P1092H",
+     "R1302K",
+     "T1518M",
+     "V1653I",
+     "A1713T",
+     "V1787I",
+     "S1894G",
+     "R2039K",
+     "G2097V",
+     "Y2131D",
+     "T2140A"
+    ]
    }
   }
  }
