@@ -1,6 +1,6 @@
 {
  "nodes": {
-  "067N": {
+  "1359120810POL": {
    "country": "Poland",
    "country_confidence": {
     "Poland": 1.0
@@ -14,17 +14,24 @@
    },
    "country_entropy": -1.000088900581841e-12
   },
-  "15001AFS": {
-   "country": "South_Africa",
-   "country_confidence": {
-    "South_Africa": 1.0
-   },
-   "country_entropy": -1.000088900581841e-12
-  },
   "15006FRA": {
    "country": "Algeria",
    "country_confidence": {
     "Algeria": 1.0
+   },
+   "country_entropy": -1.000088900581841e-12
+  },
+  "3106MxYucdog14": {
+   "country": "Mexico",
+   "country_confidence": {
+    "Mexico": 1.0
+   },
+   "country_entropy": -1.000088900581841e-12
+  },
+  "33512": {
+   "country": "South_Africa",
+   "country_confidence": {
+    "South_Africa": 1.0
    },
    "country_entropy": -1.000088900581841e-12
   },
@@ -49,6 +56,13 @@
    },
    "country_entropy": -1.000088900581841e-12
   },
+  "CTMZZ11": {
+   "country": "China",
+   "country_confidence": {
+    "China": 1.0
+   },
+   "country_entropy": -1.000088900581841e-12
+  },
   "DRV_NG11": {
    "country": "Nigeria",
    "country_confidence": {
@@ -56,299 +70,272 @@
    },
    "country_entropy": -1.000088900581841e-12
   },
-  "Gra_07.10_6_F": {
+  "Gra_05.10_5_F": {
    "country": "Greenland",
    "country_confidence": {
     "Greenland": 1.0
    },
    "country_entropy": -1.000088900581841e-12
   },
-  "IGU_R201_Nilgai": {
+  "IGU_R202_Mongoose": {
    "country": "India",
    "country_confidence": {
     "India": 1.0
    },
    "country_entropy": -1.000088900581841e-12
   },
-  "IP_1586/10": {
+  "IP_230/10": {
    "country": "Brazil",
    "country_confidence": {
     "Brazil": 1.0
    },
    "country_entropy": -1.000088900581841e-12
   },
-  "InDRE3944": {
-   "country": "Mexico",
-   "country_confidence": {
-    "Mexico": 1.0
-   },
-   "country_entropy": -1.000088900581841e-12
-  },
-  "Lao4": {
+  "Lao2": {
    "country": "Laos",
    "country_confidence": {
     "Laos": 1.0
    },
    "country_entropy": -1.000088900581841e-12
   },
-  "NB.2015.0201": {
+  "NB.2015.0156": {
    "country": "Canada",
    "country_confidence": {
     "Canada": 1.0
    },
    "country_entropy": -1.000088900581841e-12
   },
-  "NODE_0000000": {
+  "NODE_0000001": {
    "country": "Brazil",
    "country_confidence": {
-    "Brazil": 0.07499494724328437,
-    "China": 0.06748337020121553,
-    "French_Guiana": 0.07420566013676702,
-    "Laos": 0.06644154772070002
+    "Brazil": 0.09500246922658721,
+    "China": 0.0730243368503719,
+    "French_Guiana": 0.07692808288618623,
+    "Laos": 0.07547638619848634
    },
-   "country_entropy": 3.1616054507011864
-  },
-  "NODE_0000001": {
-   "country": "French_Guiana",
-   "country_confidence": {
-    "Brazil": 0.13354523733108348,
-    "Canada": 0.08458517774321182,
-    "French_Guiana": 0.1388623689345843,
-    "USA": 0.10034851386784709
-   },
-   "country_entropy": 2.975138156670984
+   "country_entropy": 3.0954032763255155
   },
   "NODE_0000002": {
    "country": "USA",
    "country_confidence": {
-    "Brazil": 0.0033553180920391297,
-    "Canada": 0.4557736482805932,
-    "French_Guiana": 0.0025404432852165542,
-    "USA": 0.5080102722935887
+    "Brazil": 0.003169197505862553,
+    "Canada": 0.4487403813643251,
+    "French_Guiana": 0.0021285179629027683,
+    "USA": 0.5075784819940298
    },
-   "country_entropy": 0.9361613157935416
+   "country_entropy": 0.9770214752262438
   },
   "NODE_0000003": {
    "country": "French_Guiana",
    "country_confidence": {
-    "Brazil": 0.29047028454681,
-    "Canada": 0.03018960718509017,
-    "French_Guiana": 0.32281004306571287,
-    "USA": 0.0396478624585811
+    "Brazil": 0.1494872104581301,
+    "China": 0.05446351850265669,
+    "French_Guiana": 0.15130102979459603,
+    "Laos": 0.05234481784444654
    },
-   "country_entropy": 2.2978478866866396
+   "country_entropy": 2.978026789817898
   },
   "NODE_0000004": {
-   "country": "Laos",
+   "country": "Brazil",
    "country_confidence": {
-    "China": 0.0983630670878182,
-    "Laos": 0.10034897733595137,
-    "South_Africa": 0.06898508035247097,
-    "Taiwan": 0.08745212244174204
+    "Brazil": 0.09233557058581052,
+    "China": 0.07434521766238861,
+    "French_Guiana": 0.0745460982964388,
+    "Laos": 0.0769403209974414
    },
-   "country_entropy": 3.091013716071392
+   "country_entropy": 3.097827919127748
   },
   "NODE_0000005": {
    "country": "Laos",
    "country_confidence": {
-    "China": 0.1781318154270914,
-    "Laos": 0.19280119614221305,
-    "South_Africa": 0.03990555660182549,
-    "Taiwan": 0.16599255205209337
+    "Brazil": 0.05170971980974216,
+    "China": 0.1526400551642446,
+    "Laos": 0.16403032852878083,
+    "Taiwan": 0.1445492357560841
    },
-   "country_entropy": 2.710565756247141
+   "country_entropy": 2.836874716887563
   },
   "NODE_0000006": {
    "country": "Laos",
    "country_confidence": {
-    "China": 0.12449725816710785,
-    "Laos": 0.2599379057558235,
-    "South_Africa": 0.029707087157159667,
-    "Taiwan": 0.2321855301381786
+    "Brazil": 0.038833130616168575,
+    "China": 0.10913632944352225,
+    "Laos": 0.2233528049647898,
+    "Taiwan": 0.20561912122475443
    },
-   "country_entropy": 2.507338477267915
+   "country_entropy": 2.6735603938326227
   },
   "NODE_0000007": {
-   "country": "South_Africa",
-   "country_confidence": {
-    "Central_African_Republic": 0.08022029596313927,
-    "Greenland": 0.075147179582863,
-    "Nigeria": 0.07348459674864864,
-    "South_Africa": 0.10142958334950722
-   },
-   "country_entropy": 3.1001462800802178
-  },
-  "NODE_0000008": {
    "country": "Central_African_Republic",
    "country_confidence": {
-    "Central_African_Republic": 0.46931375917305507,
-    "Greenland": 0.00352427227523801,
-    "Nigeria": 0.46731652988992667,
-    "South_Africa": 0.00554133405094276
+    "Brazil": 0.05402850458377463,
+    "Central_African_Republic": 0.07218186551214274,
+    "Mexico": 0.05975669326738833,
+    "Nigeria": 0.06619154171802337
    },
-   "country_entropy": 1.0848627421198476
+   "country_entropy": 3.168838907121657
+  },
+  "NODE_0000008": {
+   "country": "Nigeria",
+   "country_confidence": {
+    "Brazil": 0.004794461413408478,
+    "Central_African_Republic": 0.45305703957871724,
+    "Mexico": 0.004977916189020472,
+    "Nigeria": 0.47218803359651706
+   },
+   "country_entropy": 1.140411701314158
   },
   "NODE_0000009": {
-   "country": "South_Africa",
+   "country": "Mexico",
    "country_confidence": {
-    "Greenland": 0.1045172043682171,
-    "Iraq": 0.06186426260763945,
-    "Mexico": 0.07559004162702462,
-    "South_Africa": 0.13650959967938983
+    "Bangladesh": 0.06158980912211839,
+    "Greenland": 0.06920164510694263,
+    "Iraq": 0.07262669167191856,
+    "Mexico": 0.08298862636299778
    },
-   "country_entropy": 3.0286864135795963
+   "country_entropy": 3.1368274183375053
   },
   "NODE_0000010": {
    "country": "Greenland",
    "country_confidence": {
-    "Bangladesh": 0.16825522556982356,
-    "Greenland": 0.28228827828656694,
-    "India": 0.12345316662792333,
-    "Pakistan": 0.07485391606954127
+    "Bangladesh": 0.16450259609808804,
+    "Greenland": 0.1740942734083967,
+    "Pakistan": 0.12720759991831884,
+    "Russia": 0.13436954164714182
    },
-   "country_entropy": 2.4953044547396233
+   "country_entropy": 2.6317712882968927
   },
   "NODE_0000011": {
-   "country": "Bangladesh",
+   "country": "Greenland",
    "country_confidence": {
-    "Bangladesh": 0.33946449386180366,
-    "India": 0.2695167905577809,
-    "Nepal": 0.10671428909445042,
-    "Pakistan": 0.15728350341315617
+    "Bangladesh": 0.019244197850811405,
+    "Greenland": 0.48701635621695805,
+    "Pakistan": 0.012542097553606201,
+    "Russia": 0.4090370648706675
    },
-   "country_entropy": 1.8186416861572237
+   "country_entropy": 1.251644721541097
   },
   "NODE_0000012": {
-   "country": "India",
+   "country": "Bangladesh",
    "country_confidence": {
-    "Bangladesh": 0.2260382360892783,
-    "India": 0.34315934173451207,
-    "Nepal": 0.13792798200452597,
-    "Pakistan": 0.20397747312676495
+    "Bangladesh": 0.3562367817838172,
+    "Greenland": 0.03778914792139528,
+    "India": 0.19544666943852756,
+    "Pakistan": 0.2883669183864594
    },
-   "country_entropy": 1.7408811818136762
+   "country_entropy": 1.7778395237590483
   },
   "NODE_0000013": {
    "country": "Pakistan",
    "country_confidence": {
-    "Bangladesh": 0.035327080342215426,
-    "India": 0.06221417539722385,
-    "Nepal": 0.3762573442439369,
-    "Pakistan": 0.5006814075345487
+    "Bangladesh": 0.11544470820050504,
+    "Greenland": 0.011798792540024455,
+    "India": 0.3395488975264063,
+    "Pakistan": 0.48075862790244234
    },
-   "country_entropy": 1.1722241154102138
+   "country_entropy": 1.3304563076502842
   },
   "NODE_0000014": {
-   "country": "South_Africa",
-   "country_confidence": {
-    "Greenland": 0.08252865117355526,
-    "Iraq": 0.07564829838447455,
-    "Mexico": 0.09283933407784146,
-    "South_Africa": 0.16244255449543832
-   },
-   "country_entropy": 2.981615885515322
-  },
-  "NODE_0000015": {
    "country": "Mexico",
    "country_confidence": {
-    "Ethiopia": 0.08164127009431488,
-    "Grenada": 0.08221119917851638,
-    "Iraq": 0.14942541806132065,
-    "Mexico": 0.1686126465144121
+    "Ethiopia": 0.07792571457097357,
+    "Grenada": 0.07799279477334788,
+    "Iraq": 0.13002687351714162,
+    "Mexico": 0.14105373183454012
    },
-   "country_entropy": 2.7308662084659767
+   "country_entropy": 2.88141481259016
+  },
+  "NODE_0000016": {
+   "country": "Iraq",
+   "country_confidence": {
+    "Ethiopia": 0.10422161882434262,
+    "Grenada": 0.1045179325950573,
+    "Iraq": 0.1706235540575776,
+    "Turkey": 0.092832805754675
+   },
+   "country_entropy": 2.669321096689199
   },
   "NODE_0000017": {
    "country": "Iraq",
    "country_confidence": {
-    "Ethiopia": 0.10732747137558106,
-    "Grenada": 0.1079304922481216,
-    "Iraq": 0.19182937255336147,
-    "Turkey": 0.09967865007742974
+    "Ethiopia": 0.09575490935301023,
+    "Grenada": 0.11305579872039388,
+    "Iraq": 0.18103464932903168,
+    "Turkey": 0.10033756655452986
    },
-   "country_entropy": 2.56611256382104
+   "country_entropy": 2.636348793542281
   },
   "NODE_0000018": {
-   "country": "Turkey",
+   "country": "Iraq",
    "country_confidence": {
-    "Iraq": 0.09911128343527228,
-    "Russia": 0.21224551417025742,
-    "Tajikistan": 0.16041539529419696,
-    "Turkey": 0.22850220322923265
+    "Ethiopia": 0.08443511484695074,
+    "Grenada": 0.1500582694954633,
+    "Iraq": 0.21805870554141168,
+    "Turkey": 0.08846243506641394
    },
-   "country_entropy": 2.3140117825503386
+   "country_entropy": 2.5765489147310316
   },
   "NODE_0000019": {
-   "country": "Russia",
+   "country": "Poland",
    "country_confidence": {
-    "Iraq": 0.050246812993784834,
-    "Russia": 0.3552071090835228,
-    "Tajikistan": 0.29270367756385796,
-    "Turkey": 0.12376688747663107
+    "Iraq": 0.09654003785325468,
+    "Poland": 0.2139686520944899,
+    "Tajikistan": 0.16407856051269337,
+    "Turkey": 0.20944852223718083
    },
-   "country_entropy": 1.9266394332979129
+   "country_entropy": 2.3784598134304202
   },
   "NODE_0000020": {
-   "country": "Iraq",
+   "country": "Poland",
    "country_confidence": {
-    "Ethiopia": 0.11599794921553275,
-    "Grenada": 0.11661447513625783,
-    "Iraq": 0.20298653488366153,
-    "Turkey": 0.09037219934245456
+    "Iraq": 0.06488011852897052,
+    "Poland": 0.3025521738324185,
+    "Tajikistan": 0.2462069136230953,
+    "Turkey": 0.14622219460061583
    },
-   "country_entropy": 2.535584212425394
+   "country_entropy": 2.1661617378894724
   },
   "NODE_0000021": {
-   "country": "Iraq",
+   "country": "Ethiopia",
    "country_confidence": {
-    "Ethiopia": 0.10176127921959795,
-    "Grenada": 0.15485192016491403,
-    "Iraq": 0.24226335228438675,
-    "Turkey": 0.07953571176591882
+    "Algeria": 0.132711561692085,
+    "Ethiopia": 0.16983237991963843,
+    "Iraq": 0.11275473620059855,
+    "South_Africa": 0.09378382596036353
    },
-   "country_entropy": 2.466908498276191
+   "country_entropy": 2.6266077911080457
   },
   "NODE_0000022": {
    "country": "Ethiopia",
    "country_confidence": {
-    "Algeria": 0.1427532425541505,
-    "Ethiopia": 0.19504304822774665,
-    "Iraq": 0.13640086685770203,
-    "Tanzania": 0.10346851565390451
+    "Algeria": 0.23551616390352306,
+    "Ethiopia": 0.27226205301332296,
+    "Iraq": 0.07647040818129804,
+    "South_Africa": 0.0643306648340108
    },
-   "country_entropy": 2.4841899601415394
+   "country_entropy": 2.3696122535905118
   },
   "NODE_0000023": {
-   "country": "Tanzania",
+   "country": "South_Africa",
    "country_confidence": {
-    "Algeria": 0.010783580625023452,
-    "Ethiopia": 0.017453802099937337,
-    "Kenya": 0.4228214806652215,
-    "Tanzania": 0.4937186025608419
+    "Ethiopia": 0.040128071275819514,
+    "Kenya": 0.20252082425707565,
+    "South_Africa": 0.30019732418028855,
+    "Tanzania": 0.2988795308716184
    },
-   "country_entropy": 1.1463398572378203
+   "country_entropy": 1.8988476487570762
   },
   "NODE_0000024": {
-   "country": "Ethiopia",
+   "country": "Tanzania",
    "country_confidence": {
-    "Algeria": 0.24280736255861435,
-    "Ethiopia": 0.2984393521857873,
-    "Iraq": 0.09228093860403624,
-    "Tanzania": 0.07061672232346257
+    "Ethiopia": 0.02101970092869771,
+    "Kenya": 0.29775083376115213,
+    "South_Africa": 0.16320368187501513,
+    "Tanzania": 0.4224820487576632
    },
-   "country_entropy": 2.2242684638794534
+   "country_entropy": 1.5960794895895776
   },
-  "NODE_0000026": {
-   "country": "Poland",
-   "country_confidence": {
-    "Brazil": 0.05056267717050375,
-    "China": 0.04386223891187538,
-    "Laos": 0.043961941868120594,
-    "Poland": 0.05973855196499353
-   },
-   "country_entropy": 3.24668467411626
-  },
-  "NY.2011.2001": {
+  "NY.2011.0560": {
    "country": "USA",
    "country_confidence": {
     "USA": 1.0
@@ -369,10 +356,24 @@
    },
    "country_entropy": -1.000088900581841e-12
   },
+  "RUS_FJL_2016_VL": {
+   "country": "Russia",
+   "country_confidence": {
+    "Russia": 1.0
+   },
+   "country_entropy": -1.000088900581841e-12
+  },
   "RV2516": {
    "country": "Iraq",
    "country_confidence": {
     "Iraq": 1.0
+   },
+   "country_entropy": -1.000088900581841e-12
+  },
+  "RV2817.1": {
+   "country": "Tanzania",
+   "country_confidence": {
+    "Tanzania": 1.0
    },
    "country_entropy": -1.000088900581841e-12
   },
@@ -383,13 +384,6 @@
    },
    "country_entropy": -1.000088900581841e-12
   },
-  "RV2924": {
-   "country": "Nepal",
-   "country_confidence": {
-    "Nepal": 1.0
-   },
-   "country_entropy": -1.000088900581841e-12
-  },
   "RV2985": {
    "country": "Ethiopia",
    "country_confidence": {
@@ -397,24 +391,10 @@
    },
    "country_entropy": -1.000088900581841e-12
   },
-  "RV3100.1": {
-   "country": "Tanzania",
+  "RV3163": {
+   "country": "Turkey",
    "country_confidence": {
-    "Tanzania": 1.0
-   },
-   "country_entropy": -1.000088900581841e-12
-  },
-  "Rus_Lipetsk_8057f_2011": {
-   "country": "Russia",
-   "country_confidence": {
-    "Russia": 1.0
-   },
-   "country_entropy": -1.000088900581841e-12
-  },
-  "SXBJ15": {
-   "country": "China",
-   "country_confidence": {
-    "China": 1.0
+    "Turkey": 1.0
    },
    "country_entropy": -1.000088900581841e-12
   },
@@ -422,13 +402,6 @@
    "country": "Tajikistan",
    "country_confidence": {
     "Tajikistan": 1.0
-   },
-   "country_entropy": -1.000088900581841e-12
-  },
-  "sub5791": {
-   "country": "Turkey",
-   "country_confidence": {
-    "Turkey": 1.0
    },
    "country_entropy": -1.000088900581841e-12
   }

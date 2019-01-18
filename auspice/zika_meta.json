@@ -41,13 +41,20 @@
     },
     "country": {
       "key": "country",
-      "legendTitle": "country",
-      "menuItem": "country"
+      "legendTitle": "Country",
+      "menuItem": "country",
+      "type": "discrete"
     },
     "gt": {
       "key": "genotype",
       "legendTitle": "Genotype",
       "menuItem": "genotype",
+      "type": "discrete"
+    },
+    "host": {
+      "key": "host",
+      "legendTitle": "Host",
+      "menuItem": "host",
       "type": "discrete"
     },
     "num_date": {
@@ -129,10 +136,6 @@
         "latitude": 19.4325301,
         "longitude": -99.1332101
       },
-      "Nepal": {
-        "latitude": 28.0,
-        "longitude": 84.0
-      },
       "Nigeria": {
         "latitude": 10.0,
         "longitude": 8.0
@@ -186,5 +189,5 @@
   ],
   "title": "Real-time tracking of Rabies virus evolution",
   "updated": "18 Jan 2019",
-  "virus_count": 26
+  "virus_count": 25
 }

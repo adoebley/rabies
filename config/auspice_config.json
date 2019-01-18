@@ -1,6 +1,12 @@
 {
   "title": "Real-time tracking of Rabies virus evolution",
   "color_options": {
+    "host": {
+      "menuItem": "host",
+      "legendTitle": "Host",
+      "type": "discrete",
+      "key": "host"
+    },
     "gt": {
       "menuItem": "genotype",
       "legendTitle": "Genotype",
@@ -20,6 +26,10 @@
       "type":"discrete"
     },
     "country": {
+      "menuItem": "country",
+      "legendTitle": "Country",
+      "type": "discrete",
+      "key": "country"
     },
     "region": {
     }
@@ -30,7 +40,7 @@
   ],
   "defaults": {
     "mapTriplicate": true
-  },  
+  },
   "maintainer": [
     "Trevor Bedford",
     "http://bedford.io/team/trevor-bedford/"

@@ -51,7 +51,7 @@ rule filter:
         group_by = "country", #group_by = "country year month",
         sequences_per_group = 1, 
         min_date = 2010,
-        min_length = 10000
+        min_length = 1000
     shell:
         """
         augur filter \
@@ -184,7 +184,7 @@ rule traits:
             --metadata {input.metadata} \
             --output {output.node_data} \
             --columns {params.columns} \
-            --confidence
+            --confidence \
         """
 
 rule export:
@@ -210,7 +210,7 @@ rule export:
             --lat-longs {input.lat_longs} \
             --auspice-config {input.auspice_config} \
             --output-tree {output.auspice_tree} \
-            --output-meta {output.auspice_meta}
+            --output-meta {output.auspice_meta} \
         """
 
 rule clean:
