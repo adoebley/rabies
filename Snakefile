@@ -1,13 +1,13 @@
 rule all:
     input:
-        auspice_tree = "auspice/zika_tree.json",
-        auspice_meta = "auspice/zika_meta.json"
+        auspice_tree = "auspice/rabies_tree.json",
+        auspice_meta = "auspice/rabies_meta.json"
 
 
 rule parse:
     message: "Parsing fasta into sequences and metadata"
     input:
-        sequences = "data/date_corrected_full_genome_rabies.fasta"
+        sequences = "data/date_corrected_all_rabies.fasta"
     output:
         sequences = "results/sequences.fasta",
         metadata = "results/metadata.tsv"
@@ -50,8 +50,8 @@ rule filter:
     params:
         group_by = "country", #group_by = "country year month",
         sequences_per_group = 1, 
-        min_date = 2010,
-        min_length = 1000
+        min_date = 2011,
+        min_length = 10000
     shell:
         """
         augur filter \
