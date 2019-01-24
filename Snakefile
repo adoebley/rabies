@@ -7,12 +7,12 @@ rule all:
 rule parse:
     message: "Parsing fasta into sequences and metadata"
     input:
-        sequences = "data/date_corrected_all_rabies.fasta"
+        sequences = "data/rabies_cleaned_up.fasta"
     output:
         sequences = "results/sequences.fasta",
         metadata = "results/metadata.tsv"
     params:
-        fasta_fields = "accession strain segment date host country subtype virus"
+        fasta_fields = "strain virus accession date region country division location host source locus authors url title journal puburl"
     shell:
         """
         augur parse \
@@ -28,6 +28,7 @@ rule files:
         input_metadata = "results/metadata.tsv",
         dropped_strains = "config/dropped_strains.txt",
         reference = "config/rabies.gb",
+        colors = "config/colors.tsv",
         lat_longs = "config/lat_longs.tsv",
         auspice_config = "config/auspice_config.json"
 
@@ -48,10 +49,11 @@ rule filter:
     output:
         sequences = "results/filtered.fasta"
     params:
-        group_by = "country", #group_by = "country year month",
-        sequences_per_group = 1, 
-        min_date = 2011,
-        min_length = 10000
+        group_by = "country year month host", #group_by = "country year month",
+        sequences_per_group = 10, 
+        min_date = 0000,
+        min_length = 5000,
+	exclude_where = "host=unknown host=animal host=mammal country=na host=? country=na country=?"
     shell:
         """
         augur filter \
@@ -62,6 +64,7 @@ rule filter:
             --group-by {params.group_by} \
             --sequences-per-group {params.sequences_per_group} \
             --min-date {params.min_date} \
+            --exclude-where {params.exclude_where} \
             --min-length {params.min_length}
         """
 
@@ -196,6 +199,7 @@ rule export:
         traits = rules.traits.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
+        colors = files.colors,
         lat_longs = files.lat_longs,
         auspice_config = files.auspice_config
     output:
@@ -207,6 +211,7 @@ rule export:
             --tree {input.tree} \
             --metadata {input.metadata} \
             --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.aa_muts} \
+            --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --auspice-config {input.auspice_config} \
             --output-tree {output.auspice_tree} \
