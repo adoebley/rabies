@@ -1,0 +1,502 @@
+{
+  "annotations": {
+    "EBLV1_gp1": {
+      "end": 1426,
+      "start": 70,
+      "strand": 1
+    },
+    "EBLV1_gp2": {
+      "end": 2413,
+      "start": 1516,
+      "strand": 1
+    },
+    "EBLV1_gp3": {
+      "end": 3105,
+      "start": 2496,
+      "strand": 1
+    },
+    "EBLV1_gp4": {
+      "end": 4891,
+      "start": 3316,
+      "strand": 1
+    },
+    "EBLV1_gp5": {
+      "end": 11835,
+      "start": 5451,
+      "strand": 1
+    },
+    "nuc": {
+      "end": 11966,
+      "start": 0,
+      "strand": 1
+    }
+  },
+  "author_info": {
+    "?": {
+      "journal": "?",
+      "n": 17342,
+      "title": "?"
+    }
+  },
+  "color_options": {
+    "authors": {
+      "key": "authors",
+      "legendTitle": "Authors",
+      "menuItem": "authors",
+      "type": "discrete"
+    },
+    "country": {
+      "color_map": [
+        [
+          "china",
+          "#4379CD"
+        ],
+        [
+          "taiwan",
+          "#4784C7"
+        ],
+        [
+          "brazil",
+          "#56A0AF"
+        ],
+        [
+          "french_guiana",
+          "#73B583"
+        ],
+        [
+          "mexico",
+          "#D3B240"
+        ],
+        [
+          "usa",
+          "#DC2F24"
+        ]
+      ],
+      "key": "country",
+      "legendTitle": "Country",
+      "menuItem": "country",
+      "type": "discrete"
+    },
+    "gt": {
+      "key": "genotype",
+      "legendTitle": "Genotype",
+      "menuItem": "genotype",
+      "type": "discrete"
+    },
+    "host": {
+      "color_map": [
+        [
+          "dog",
+          "#DC2F24"
+        ],
+        [
+          "bat",
+          "#4334BF"
+        ],
+        [
+          "human",
+          "#86BB6E"
+        ],
+        [
+          "cat",
+          "#E68234"
+        ],
+        [
+          "fox",
+          "#56A0AF"
+        ],
+        [
+          "cattle",
+          "#CCB742"
+        ],
+        [
+          "raccoon",
+          "#BA55D3"
+        ]
+      ],
+      "key": "host",
+      "legendTitle": "Host",
+      "menuItem": "host",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    },
+    "region": {
+      "color_map": [
+        [
+          "china",
+          "#4042C7"
+        ],
+        [
+          "southeast_asia",
+          "#4274CE"
+        ],
+        [
+          "south_asia",
+          "#5199B7"
+        ],
+        [
+          "japan_korea",
+          "#69B091"
+        ],
+        [
+          "west_asia",
+          "#ADBD51"
+        ],
+        [
+          "africa",
+          "#CEB541"
+        ],
+        [
+          "europe",
+          "#E39B39"
+        ],
+        [
+          "south_america",
+          "#E56C2F"
+        ],
+        [
+          "north_america",
+          "#DC2F24"
+        ]
+      ],
+      "key": "region",
+      "legendTitle": "region",
+      "menuItem": "region"
+    }
+  },
+  "defaults": {
+    "mapTriplicate": true
+  },
+  "filters": [
+    "country",
+    "region",
+    "authors"
+  ],
+  "geo": {
+    "country": {
+      "algeria": {
+        "latitude": 28.0000272,
+        "longitude": 2.9999825
+      },
+      "argentina": {
+        "latitude": -34.0,
+        "longitude": -64.0
+      },
+      "azerbaijan": {
+        "latitude": 40.37767,
+        "longitude": 49.89201
+      },
+      "bangladesh": {
+        "latitude": 24.4768783,
+        "longitude": 90.2932426
+      },
+      "belgium": {
+        "latitude": 50.6407351,
+        "longitude": 4.66696
+      },
+      "benin": {
+        "latitude": 9.668764,
+        "longitude": 2.284078
+      },
+      "bosnia_and_herzegovina": {
+        "latitude": 45.0,
+        "longitude": 18.0
+      },
+      "brazil": {
+        "latitude": -10.3333332,
+        "longitude": -53.1999999
+      },
+      "burkina_faso": {
+        "latitude": 12.5,
+        "longitude": -1.66667
+      },
+      "cambodia": {
+        "latitude": 13.0,
+        "longitude": 105.0
+      },
+      "cameroon": {
+        "latitude": 6.0,
+        "longitude": 12.5
+      },
+      "canada": {
+        "latitude": 61.0666922,
+        "longitude": -107.991707
+      },
+      "central_african_republic": {
+        "latitude": 7.0,
+        "longitude": 21.0
+      },
+      "chad": {
+        "latitude": 15.0,
+        "longitude": 19.0
+      },
+      "china": {
+        "latitude": 35.000074,
+        "longitude": 104.999927
+      },
+      "cote_d_ivoire": {
+        "latitude": 7.9897371,
+        "longitude": -5.5679457
+      },
+      "egypt": {
+        "latitude": 26.2540493,
+        "longitude": 29.2675469
+      },
+      "estonia": {
+        "latitude": 59.0,
+        "longitude": 26.0
+      },
+      "ethiopia": {
+        "latitude": 9.0,
+        "longitude": 39.5
+      },
+      "finland": {
+        "latitude": 63.2467777,
+        "longitude": 25.9209164
+      },
+      "france": {
+        "latitude": 46.603354,
+        "longitude": 1.8883335
+      },
+      "french_guiana": {
+        "latitude": 4.93333,
+        "longitude": -52.33333
+      },
+      "gabon": {
+        "latitude": -0.8999694,
+        "longitude": 11.6899699
+      },
+      "germany": {
+        "latitude": 51.0834196,
+        "longitude": 10.4234469
+      },
+      "greenland": {
+        "latitude": 65.8,
+        "longitude": -46.1
+      },
+      "grenada": {
+        "latitude": 12.11667,
+        "longitude": -61.66667
+      },
+      "guinea": {
+        "latitude": 10.7226226,
+        "longitude": -10.7083586
+      },
+      "hungary": {
+        "latitude": 47.0,
+        "longitude": 20.0
+      },
+      "india": {
+        "latitude": 22.3511148,
+        "longitude": 78.6677428
+      },
+      "iran": {
+        "latitude": 32.0,
+        "longitude": 53.0
+      },
+      "israel": {
+        "latitude": 31.5,
+        "longitude": 34.75
+      },
+      "kenya": {
+        "latitude": 1.0,
+        "longitude": 38.0
+      },
+      "laos": {
+        "latitude": 20.0171109,
+        "longitude": 103.378253
+      },
+      "madagascar": {
+        "latitude": -20.0,
+        "longitude": 47.0
+      },
+      "mauritania": {
+        "latitude": 20.25,
+        "longitude": -10.5
+      },
+      "mexico": {
+        "latitude": 19.4325301,
+        "longitude": -99.1332101
+      },
+      "montenegro": {
+        "latitude": 43.0285558,
+        "longitude": 19.291739
+      },
+      "morocco": {
+        "latitude": 31.1728192,
+        "longitude": -7.3366042
+      },
+      "mozambique": {
+        "latitude": -18.25,
+        "longitude": 35.0
+      },
+      "myanmar": {
+        "latitude": 21.0,
+        "longitude": 96.0
+      },
+      "namibia": {
+        "latitude": -22.1,
+        "longitude": 17.3
+      },
+      "nepal": {
+        "latitude": 28.0,
+        "longitude": 84.0
+      },
+      "niger": {
+        "latitude": 18.0,
+        "longitude": 9.0
+      },
+      "nigeria": {
+        "latitude": 10.0,
+        "longitude": 8.0
+      },
+      "oman": {
+        "latitude": 21.0000287,
+        "longitude": 57.0036901
+      },
+      "pakistan": {
+        "latitude": 30.0,
+        "longitude": 70.0
+      },
+      "philippines": {
+        "latitude": 12.8797,
+        "longitude": 121.774
+      },
+      "poland": {
+        "latitude": 52.0977181,
+        "longitude": 19.0258159
+      },
+      "russia": {
+        "latitude": 64.6863136,
+        "longitude": 97.7453061
+      },
+      "rwanda": {
+        "latitude": -2.0,
+        "longitude": 30.0
+      },
+      "saudi_arabia": {
+        "latitude": 25.0,
+        "longitude": 45.0
+      },
+      "senegal": {
+        "latitude": 14.5,
+        "longitude": -14.25
+      },
+      "serbia": {
+        "latitude": 44.1534121,
+        "longitude": 20.55144
+      },
+      "slovenia": {
+        "latitude": 45.8133113,
+        "longitude": 14.4808369
+      },
+      "somalia": {
+        "latitude": 8.3676771,
+        "longitude": 49.083416
+      },
+      "south_africa": {
+        "latitude": -28.8166235,
+        "longitude": 24.991639
+      },
+      "south_korea": {
+        "latitude": 35.3985008,
+        "longitude": 127.937111
+      },
+      "sri_lanka": {
+        "latitude": 7.75,
+        "longitude": 80.75
+      },
+      "taiwan": {
+        "latitude": 23.6978,
+        "longitude": 120.9605
+      },
+      "tajikistan": {
+        "latitude": 39.0,
+        "longitude": 71.0
+      },
+      "tanzania": {
+        "latitude": -6.0,
+        "longitude": 35.0
+      },
+      "turkey": {
+        "latitude": 39.0,
+        "longitude": 35.0
+      },
+      "uganda": {
+        "latitude": 1.5333554,
+        "longitude": 32.2166578
+      },
+      "united_arab_emirates": {
+        "latitude": 24.0002488,
+        "longitude": 53.9994829
+      },
+      "usa": {
+        "latitude": 39.7837304,
+        "longitude": -100.4458824
+      },
+      "zaire": {
+        "latitude": -2.9,
+        "longitude": 23.4
+      },
+      "zimbabwe": {
+        "latitude": -19.307486,
+        "longitude": 29.7968377
+      }
+    },
+    "region": {
+      "africa": {
+        "latitude": 4.070194,
+        "longitude": 21.824559
+      },
+      "china": {
+        "latitude": 35.000074,
+        "longitude": 104.999927
+      },
+      "europe": {
+        "latitude": 49.646237,
+        "longitude": 10.799454
+      },
+      "japan_korea": {
+        "latitude": 35.845119,
+        "longitude": 136.736386
+      },
+      "north_america": {
+        "latitude": 28.2367447,
+        "longitude": -97.738017
+      },
+      "south_america": {
+        "latitude": -13.083583,
+        "longitude": -58.470721
+      },
+      "south_asia": {
+        "latitude": 24.485438,
+        "longitude": 76.513158
+      },
+      "southeast_asia": {
+        "latitude": 3.020567,
+        "longitude": 112.390683
+      },
+      "west_asia": {
+        "latitude": 34.000094,
+        "longitude": 48.73228
+      }
+    }
+  },
+  "maintainer": [
+    "Trevor Bedford",
+    "http://bedford.io/team/trevor-bedford/"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "title": "Real-time tracking of Rabies virus evolution",
+  "updated": "25 Jan 2019",
+  "virus_count": 1071
+}

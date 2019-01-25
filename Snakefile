@@ -53,7 +53,7 @@ rule filter:
         sequences_per_group = 10, 
         min_date = 0000,
         min_length = 5000,
-	exclude_where = "host=unknown host=animal host=mammal country=na host=? country=na country=?"
+	exclude_where = "date=? host=unknown host=animal host=mammal country=na host=? country=na country=?"
     shell:
         """
         augur filter \
@@ -120,7 +120,7 @@ rule refine:
     params:
         coalescent = "opt",
         date_inference = "marginal",
-        clock_filter_iqd = 4
+        clock_filter_iqd = 4000
     shell:
         """
         augur refine \

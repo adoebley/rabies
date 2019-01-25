@@ -1,0 +1,304 @@
+This is the terminal window output for the version of rabies nextstrain shown at lab meeting 
+I'm saving it for troubleshooting
+
+
+Last login: Wed Jan 23 12:05:53 on ttys002
+Annas-MacBook-Pro:~ annadoebley$ source activate nextstrain
+(nextstrain) Annas-MacBook-Pro:~ annadoebley$ cd rabies/
+(nextstrain) Annas-MacBook-Pro:rabies annadoebley$ ls
+README.md		auspice_5000bp_and_host	config
+Snakefile		auspice_final		data
+auspice_5000bp		before_color_added	date_format.py
+(nextstrain) Annas-MacBook-Pro:rabies annadoebley$ nextstrain build .
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	align
+	1	all
+	1	ancestral
+	1	export
+	1	filter
+	1	parse
+	1	refine
+	1	traits
+	1	translate
+	1	tree
+	10
+
+Job 4: Parsing fasta into sequences and metadata
+
+
+        augur parse             --sequences data/rabies_cleaned_up.fasta             --output-sequences results/sequences.fasta             --output-metadata results/metadata.tsv             --fields strain virus accession date region country division location host source locus authors url title journal puburl 
+        
+Finished job 4.
+1 of 10 steps (10%) done
+
+Job 9: 
+        Filtering to
+          - 10 sequence(s) per country year month host
+          - from 0 onwards
+          - excluding strains in config/dropped_strains.txt
+        
+
+
+        augur filter             --sequences results/sequences.fasta             --metadata results/metadata.tsv             --exclude config/dropped_strains.txt             --output results/filtered.fasta             --group-by country year month host             --sequences-per-group 10             --min-date 0             --exclude-where host=unknown host=animal host=mammal country=na host=? country=na country=?             --min-length 5000
+        
+WARNING: no valid year, skipping BRbv1359 ?
+WARNING: no valid year, skipping BRbv1359 ?
+WARNING: no valid year, skipping DRV_Mexico ?
+WARNING: no valid year, skipping DRV_Mexico ?
+WARNING: no valid year, skipping ChDg ?
+WARNING: no valid year, skipping ChDg ?
+WARNING: no valid year, skipping GD_SH_01 ?
+WARNING: no valid year, skipping GD_SH_01 ?
+WARNING: no valid year, skipping BR_BAT34 ?
+WARNING: no valid year, skipping BR_BAT34 ?
+WARNING: no valid year, skipping BRmk1358 ?
+WARNING: no valid year, skipping BRmk1358 ?
+WARNING: no valid year, skipping NNV_RAB_H ?
+WARNING: no valid year, skipping NNV_RAB_H ?
+WARNING: no valid year, skipping NC1234 ?
+WARNING: no valid year, skipping NC1234 ?
+WARNING: no valid year, skipping NeiMeng925 ?
+WARNING: no valid year, skipping NeiMeng925 ?
+Finished job 9.
+2 of 10 steps (20%) done
+
+Job 7: 
+        Aligning sequences to config/rabies.gb
+          - filling gaps with N
+        
+
+
+        augur align             --sequences results/filtered.fasta             --reference-sequence config/rabies.gb             --output results/aligned.fasta             --fill-gaps
+        
+
+using mafft to align via:
+	mafft --reorder --anysymbol --thread 1 results/filtered.fasta.ref.fasta 1> results/aligned.fasta 2> results/aligned.fasta.log 
+
+	Katoh et al, Nucleic Acid Research, vol 30, issue 14
+	https://doi.org/10.1093%2Fnar%2Fgkf436
+
+Trimmed gaps in NC_001542.1 from the alignment
+Finished job 7.
+3 of 10 steps (30%) done
+
+Job 8: Building tree
+
+
+        augur tree             --alignment results/aligned.fasta             --output results/tree_raw.nwk
+        
+Building a tree via:
+	iqtree -ninit 2 -n 2 -me 0.05 -nt 1 -s results/aligned-delim.fasta -m GTR > results/aligned-delim.iqtree.log
+	Nguyen et al: IQ-TREE: A fast and effective stochastic algorithm for estimating maximum likelihood phylogenies.
+	Mol. Biol. Evol., 32:268-274. https://doi.org/10.1093/molbev/msu300
+
+Building original tree took 400.80796217918396 seconds
+Finished job 8.
+4 of 10 steps (40%) done
+
+Job 6: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+
+
+        augur refine             --tree results/tree_raw.nwk             --alignment results/aligned.fasta             --metadata results/metadata.tsv             --output-tree results/tree.nwk             --output-node-data results/branch_lengths.json             --timetree             --coalescent opt             --date-confidence             --date-inference marginal             --clock-filter-iqd 4
+        
+pruning leaf  WAEF03
+pruning leaf  EF
+pruning leaf  AZ3003
+pruning leaf  A02_2972
+pruning leaf  A02_2971
+pruning leaf  OR8767
+pruning leaf  OR05506
+pruning leaf  BRmk1358
+pruning leaf  BR_BAT34
+pruning leaf  IP_5402/07
+pruning leaf  IP_1770/12
+pruning leaf  IP_6634/08
+pruning leaf  BRbv1359
+pruning leaf  AZBAT_65094
+pruning leaf  WA0173
+pruning leaf  CA04148
+pruning leaf  A11_1043
+pruning leaf  OR05455
+pruning leaf  OR58
+pruning leaf  OR703
+pruning leaf  OR704
+pruning leaf  AZ10_144
+pruning leaf  SM4862
+pruning leaf  SM3849
+pruning leaf  AZBAT_6763
+pruning leaf  SM1545
+pruning leaf  SM5596
+pruning leaf  SM3844
+pruning leaf  A093500
+pruning leaf  V2401
+pruning leaf  V2400
+pruning leaf  V2402
+pruning leaf  V2399
+pruning leaf  V2396
+pruning leaf  V2395
+pruning leaf  V2398
+pruning leaf  V2526
+pruning leaf  V2403
+pruning leaf  SM5950
+pruning leaf  CA100
+pruning leaf  CO_Coyot_2010
+pruning leaf  SM4872
+pruning leaf  AZBAT_7453
+pruning leaf  RV50
+pruning leaf  AZ10_140
+pruning leaf  A093504
+pruning leaf  SM5442
+pruning leaf  SM6709
+pruning leaf  SM5100
+pruning leaf  SM5077
+pruning leaf  SM5103
+pruning leaf  SM5441
+pruning leaf  SM5440
+pruning leaf  SM5451
+pruning leaf  SM4871
+pruning leaf  SM5081
+pruning leaf  SM5102
+pruning leaf  SM5101
+pruning leaf  SM5079
+pruning leaf  SM5080
+pruning leaf  SM5076
+pruning leaf  SM5470
+pruning leaf  SM5074
+pruning leaf  SM5075
+pruning leaf  97002IND
+pruning leaf  H_08_1320
+pruning leaf  H_1413_09
+pruning leaf  ChDg
+pruning leaf  GD_SH_01
+pruning leaf  NeiMeng925
+pruning leaf  NNV_RAB_H
+pruning leaf  DRV_Mexico
+pruning leaf  NC1234
+pruning leaf  NC_001542.1
+pruning leaf  aG
+
+492.63	###TreeTime.run: INITIAL ROUND
+
+723.25	###TreeTime.run: ITERATION 1 out of 2 iterations
+
+1175.80	###TreeTime.run: ITERATION 2 out of 2 iterations
+
+2512.35	###TreeTime.run: FINAL ROUND - confidence estimation via marginal reconstruction
+
+Inferred a time resolved phylogeny using TreeTime:
+	Sagulenko et al. TreeTime: Maximum-likelihood phylodynamic analysis
+	Virus Evolution, vol 4, https://academic.oup.com/ve/article/4/1/vex042/4794731
+
+updated tree written to results/tree.nwk
+node attributes written to results/branch_lengths.json
+Finished job 6.
+5 of 10 steps (50%) done
+
+Job 2: Reconstructing ancestral sequences and mutations
+
+
+        augur ancestral             --tree results/tree.nwk             --alignment results/aligned.fasta             --output results/nt_muts.json             --inference joint
+        
+**WARNING: Number of sequences in tree differs from number of sequences in alignment!**
+
+Inferred ancestral sequence states using TreeTime:
+	Sagulenko et al. TreeTime: Maximum-likelihood phylodynamic analysis
+	Virus Evolution, vol 4, https://academic.oup.com/ve/article/4/1/vex042/4794731
+
+ancestral sequences written to results/nt_muts.json
+Finished job 2.
+6 of 10 steps (60%) done
+
+Job 3: Translating amino acid sequences
+
+
+        augur translate             --tree results/tree.nwk             --ancestral-sequences results/nt_muts.json             --reference-sequence config/rabies.gb             --output results/aa_muts.json         
+Read in 6 features from reference sequence file
+amino acid mutations written to results/aa_muts.json
+Finished job 3.
+7 of 10 steps (70%) done
+
+Job 5: Inferring ancestral traits for region country
+
+
+        augur traits             --tree results/tree.nwk             --metadata results/metadata.tsv             --output results/traits.json             --columns region country             --confidence         
+
+Inferred ancestral states of discrete character using TreeTime:
+	Sagulenko et al. TreeTime: Maximum-likelihood phylodynamic analysis
+	Virus Evolution, vol 4, https://academic.oup.com/ve/article/4/1/vex042/4794731
+
+results written to results/traits.json
+Finished job 5.
+8 of 10 steps (80%) done
+
+Job 1: Exporting data files for for auspice
+
+
+        augur export             --tree results/tree.nwk             --metadata results/metadata.tsv             --node-data results/branch_lengths.json results/traits.json results/nt_muts.json results/aa_muts.json             --colors config/colors.tsv             --lat-longs config/lat_longs.tsv             --auspice-config config/auspice_config.json             --output-tree auspice/rabies_tree.json             --output-meta auspice/rabies_meta.json         
+Finished job 1.
+9 of 10 steps (90%) done
+
+localrule all:
+    input: auspice/rabies_tree.json, auspice/rabies_meta.json
+    jobid: 0
+
+Finished job 0.
+10 of 10 steps (100%) done
+Complete log: /nextstrain/build/.snakemake/log/2019-01-23T232936.163330.snakemake.log
+(nextstrain) Annas-MacBook-Pro:rabies annadoebley$ nextstrain view auspice/
+
+——————————————————————————————————————————————————————————————————————————————
+    The following datasets should be available in a moment:
+       • http://127.0.0.1:4000/local/rabies
+——————————————————————————————————————————————————————————————————————————————
+
+
+> auspice@1.34.3 server /nextstrain/auspice
+> node server.js
+
+-----------------------------------
+Auspice server now running at http://localhost:4000
+Local datasets at http://localhost:4000/local are sourced from /nextstrain/auspice/data
+Local narratives at http://localhost:4000/local/narratives are sourced from /nextstrain/auspice/local_narratives
+-----------------------------------
+
+
+Successfully created local manifest
+Successfully created staging manifest
+Successfully created live manifest
+Charon API request: /charon?request=mainJSON&url=/local/rabies
+	Success fetching v1 JSONs. Sending as a single JSON.
+^C(nextstrain) Annas-MacBook-Pro:rabies annadoebley$ nextstrain view auspice_fna//
+
+——————————————————————————————————————————————————————————————————————————————
+    The following datasets should be available in a moment:
+       • http://127.0.0.1:4000/local/rabies
+——————————————————————————————————————————————————————————————————————————————
+
+
+> auspice@1.34.3 server /nextstrain/auspice
+> node server.js
+
+-----------------------------------
+Auspice server now running at http://localhost:4000
+Local datasets at http://localhost:4000/local are sourced from /nextstrain/auspice/data
+Local narratives at http://localhost:4000/local/narratives are sourced from /nextstrain/auspice/local_narratives
+-----------------------------------
+
+
+Successfully created local manifest
+Successfully created live manifest
+Successfully created staging manifest
+Charon API request: /charon?request=mainJSON&url=/local/rabies
+	Success fetching v1 JSONs. Sending as a single JSON.
+
